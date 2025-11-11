@@ -1,5 +1,16 @@
-const AppLayout = () => {
-  return <div>AppLayout</div>;
+import Navbar from "./navbar";
+
+const AppLayout = ({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) => {
+  return (
+    <div>
+      <Navbar />
+      {children}
+    </div>
+  );
 };
 
 export default AppLayout;
