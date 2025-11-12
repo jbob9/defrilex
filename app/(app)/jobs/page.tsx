@@ -26,7 +26,7 @@ const Jobs = () => {
               <div className="flex items-start justify-between rounded-xl gap-7">
                 <div className="rounded-md overflow-hidden mt-0 relative shadow-none w-full flex items-center gap-2.5 bg-white">
                   <input
-                    className="pl-10 border border-black/1 rounded-md w-full outline-none bg-white text-black leading-tight p-[11px,16px]"
+                    className="pl-10 border border-black/1 rounded-md w-full outline-none bg-white text-black leading-tight py-[11px] px-4"
                     name="search"
                     type="search"
                     value=""

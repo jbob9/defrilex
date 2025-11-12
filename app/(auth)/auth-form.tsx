@@ -15,7 +15,7 @@ export function AuthForm({
   ...props
 }: React.ComponentProps<"form">) {
   return (
-    <div className="space-y-4">
+    <div className="flex flex-col gap-6">
       <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
         <Button variant="outline" type="button">
           <svg
