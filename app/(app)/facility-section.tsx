@@ -85,7 +85,7 @@ const FacilitySection = () => {
             </div>
           </div>
           <div className="pl-12">
-            <div className="facility-thumb">
+            <div>
               <Image
                 src="/facility-image.webp"
                 width={510}
