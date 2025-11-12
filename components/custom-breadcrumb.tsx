@@ -6,7 +6,7 @@ const CustomBreadcrumb = ({
   links,
 }: {
   title: string;
-  links: { title: string; path?: string }[];
+  links: { title: string; path: string }[];
 }) => {
   return (
     <section
@@ -24,7 +24,7 @@ const CustomBreadcrumb = ({
                     <>
                       <li key={i} className="text-white font-normal p-[0,5px]">
                         <Link
-                          href={link?.path!}
+                          href={link.path}
                           className="text-white font-medium capitalize"
                         >
                           {link.title}

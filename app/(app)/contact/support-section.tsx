@@ -1,9 +1,7 @@
-import Image from "next/image";
-
 const SupportSection = () => {
   return (
     <div className="support-section my-120">
-      <div className="container">
+      {/* <div className="container">
         <div className="support-wrapper">
           <div className="support-wrapper__left">
             <h6 className="title">Trusted by 100,000+ Business</h6>
@@ -96,7 +94,7 @@ const SupportSection = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
