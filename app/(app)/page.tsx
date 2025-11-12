@@ -1,5 +1,9 @@
+import HowWorkSection from "./how-work-section";
+
 const Home = () => {
-  return <div>Home</div>;
+  return <div>
+    <HowWorkSection/>
+  </div>;
 };
 
 export default Home;

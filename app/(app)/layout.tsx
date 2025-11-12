@@ -1,3 +1,4 @@
+import Footer from "./footer";
 import Navbar from "./navbar";
 
 const AppLayout = ({
@@ -9,6 +10,7 @@ const AppLayout = ({
     <div>
       <Navbar />
       {children}
+      <Footer/>
     </div>
   );
 };
