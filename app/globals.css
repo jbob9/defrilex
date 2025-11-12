@@ -120,3 +120,40 @@
     @apply bg-background text-foreground;
   }
 }
+
+.footer-area__top::before{
+      position: absolute;
+    content: "";
+    width: 35px;
+    left: -19px;
+    top: 5px;
+    height: 70px;
+    background-color: hsl(226,100%,calc(33% - 33% * 0.2));
+    z-index: -1;
+    transform: rotate(29deg);
+}
+
+.footer-area__top::after {
+    position: absolute;
+    content: "";
+    width: 35px;
+    right: -19px;
+    top: 5px;
+    height: 70px;
+    background-color: hsl(226,100%,calc(33% - 33% * 0.2));
+    z-index: -1;
+    transform: rotate(-29deg);
+}
+
+.text-highlight{
+      background-image: '';
+    background-position-x: '';
+    background-position-y: '';
+    background-size: '';
+    background-repeat: '';
+    background-attachment: '';
+    background-origin: '';
+    background-color: '';
+    background-clip: text;
+    color: hsl(226,100%,33%);
+}
