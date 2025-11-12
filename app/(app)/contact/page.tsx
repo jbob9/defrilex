@@ -1,4 +1,5 @@
 import CustomBreadcrumb from "@/components/custom-breadcrumb";
+import SupportSection from "./support-section";
 
 const Contact = () => {
   return (
@@ -10,11 +11,11 @@ const Contact = () => {
           { title: "Contact Us", path: "/contact" },
         ]}
       />
-      <div className="contact-section mb-120">
-        <div className="container">
-          <div className="row gy-4 justify-content-between align-items-center flex-wrap-reverse">
-            <div className="col-xl-4">
-              <div className="contact-item-wrapper">
+      <div className="py-20 md:py-28">
+        <div className="container mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 justify-between items-center flex-wrap-reverse">
+            <div className="col-span-full md:col-span-4">
+              <div className="relative p-[100px,30px,50px,30px] md:p-[55px,30px]">
                 <h5 className="contact-item-wrapper__title">Contact with Us</h5>
                 <div>
                   <div className="contact-item">
@@ -112,7 +113,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-7">
+            <div className="col-span-full md:col-span-7">
               <div className="contact-form-wrapper">
                 <h4 className="contact-form-wrapper__title">
                   Let`s Talk with US
@@ -188,6 +189,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
+
+      <SupportSection />
     </div>
   );
 };
