@@ -48,7 +48,7 @@ const Navbar = () => {
             className={cn(
               "flex grow basis-full md:basis-auto items-center mt-6 md:mt-0 transition-all duration-300 ease-in-out",
               {
-                hidden: !isOpen,
+                "hidden md:flex": !isOpen,
               }
             )}
           >
