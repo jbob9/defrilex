@@ -21,7 +21,7 @@ const FacilitySection = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
           <div className="pr-12">
-            <div className="p-[56px,40px] rounded-lg bg-white">
+            <div className="py-14 px-10 rounded-lg bg-white">
               <div className="pb-[38px] mb-[38px] border-b bg-black/1">
                 <h5 className="font-semibold mb-2.5 flex items-center text-xl">
                   <span className="text-[hsl(226,100%,33%)] text-sm mb-3.5 size-6 flex items-center rounded-full border border-[hsl(226,100%,33%)]">

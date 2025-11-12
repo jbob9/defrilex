@@ -10,7 +10,7 @@ const CustomBreadcrumb = ({
 }) => {
   return (
     <section
-      className="mb-0 relative z-1 py-16 bg-cover w-100 h-full bg-no-repeat flex flex-wrap breadcrumb"
+      className="mb-0 relative z-1 py-16 bg-cover w-full h-full bg-no-repeat flex flex-wrap breadcrumb"
       style={{ background: "url('/breadcrumb-bg.webp')" }}
     >
       <div className="container mx-auto w-full px-3">
@@ -30,7 +30,7 @@ const CustomBreadcrumb = ({
                           {link.title}
                         </Link>
                       </li>
-                      {i + 1 === links.length ? (
+                      {i + 1 !== links.length ? (
                         <li className="text-white font-normal p-[0,5px]">
                           <ChevronRight />
                         </li>

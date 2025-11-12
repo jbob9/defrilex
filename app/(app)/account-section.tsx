@@ -9,7 +9,7 @@ const AccountSection = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="col-xl-6">
-            <div className="bg-[hsl(226,100%,16.5%)] p-[45px,60px] md:p-[30px,40px] w-full relative rounded-lg">
+            <div className="bg-[hsl(226,100%,16.5%)] py-[45px] px-[60px] md:py-[30px] md:px-10 w-full relative rounded-lg">
               <div className="max-w-[270px]">
                 <h1 className="font-semibold text-white leading-snug text-4xl">
                   I&apos;m looking for interpretation{" "}
@@ -33,7 +33,7 @@ const AccountSection = () => {
             </div>
           </div>
           <div className="col-xl-6">
-            <div className="bg-[hsl(226,100%,16.5%)] p-[45px,60px] md:p-[30px,40px] w-full relative rounded-lg">
+            <div className="bg-[hsl(226,100%,16.5%)] py-[45px] px-[60px] md:py-[30px] md:px-10 w-full relative rounded-lg">
               <div className="max-w-[270px]">
                 <h3 className="font-semibold text-white leading-snug text-4xl">
                   I need interpreters for my{" "}

@@ -39,7 +39,7 @@ const Jobs = () => {
                 </div>
               </div>
               <div className="bg-white mt-6 border border-black/1 rounded-lg overflow-hidden">
-                <div className="bg-white text-center py-12 rounded-xl">
+                <div className="bg-white text-center py-12 rounded-xl flex justify-center flex-col items-center">
                   <Image
                     width={128}
                     height={128}

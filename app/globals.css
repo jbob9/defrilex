@@ -218,44 +218,44 @@
 }
 
 .banner-thumb-shape {
-    position: absolute;
-    width: 530px;
-    height: 530px;
-    bottom: 0px;
-    right: -12px;
-    border-radius: 50%;
-    background-color: hsl(226,100%,33%);
-    z-index: -1;
+  position: absolute;
+  width: 530px;
+  height: 530px;
+  bottom: 0px;
+  right: -12px;
+  border-radius: 50%;
+  background-color: hsl(226, 100%, 33%);
+  z-index: -1;
 }
 
 .banner-thumb-shape__one {
-    position: absolute;
-    top: 60px;
-    right: 80px;
-    width: 165px;
-    height: 165px;
-    border-radius: 50%;
-    background-color: hsl(226,100%,calc(33% - 33% * 0.5) / 0.2);
+  position: absolute;
+  top: 60px;
+  right: 80px;
+  width: 165px;
+  height: 165px;
+  border-radius: 50%;
+  background-color: hsl(226, 100%, calc(33% - 33% * 0.5) / 0.2);
 }
 
 .banner-thumb-shape__two {
-    position: absolute;
-    left: 90px;
-    top: 75px;
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    background-color: hsl(226,100%,calc(33% - 33% * 0.5) / 0.2);
+  position: absolute;
+  left: 90px;
+  top: 75px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: hsl(226, 100%, calc(33% - 33% * 0.5) / 0.2);
 }
 
 .banner-thumb-shape__three {
-    position: absolute;
-    right: 75px;
-    bottom: 90px;
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    background-color: hsl(226,100%,calc(33% - 33% * 0.5) / 0.2);
+  position: absolute;
+  right: 75px;
+  bottom: 90px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: hsl(226, 100%, calc(33% - 33% * 0.5) / 0.2);
 }
 
 @keyframes horizontal-move {
@@ -268,4 +268,35 @@
   100% {
     transform: rotateZ(2deg) scale(0.8);
   }
+}
+
+.social-list__link {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  cursor: pointer;
+  color: hsl(0 0% 100%);
+  font-size: 12px;
+  background-color: hsl(0 0% 100% / 0.15);
+  border-radius: 6px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.social-list__link:hover,
+.social-list__link:focus {
+  color: hsl(0 0% 100%) !important;
+  background-color: hsl(226 100% 33%) !important;
+}
+.social-list__link:hover {
+  background-color: hsl(226 100% 33%);
+  color: hsl(0 0% 100%) !important;
+  border-color: hsl(226 100% 33%) !important;
+}
+.flex-center {
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
 }

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Banner = () => {
   return (
-    <section className="relative z-1 p-[120px,0,100px] overflow-hidden bg-[hsl(226,100%,calc(33%-33%*0.5))]">
+    <section className="relative z-1 pt-[120px] pb-[100px] px-0 overflow-hidden bg-[hsl(226,100%,calc(33%-33%*0.5))]">
       <div className="absolute bottom-0 right-0 -z-1">
         <Image src="/banner-shape.webp" alt="" width={475} height={630} />
       </div>
@@ -22,7 +22,7 @@ const Banner = () => {
                 <input
                   type="search"
                   name="search"
-                  className="rounded-md w-full outline-none bg-white text-black p-[11px,16px] leading-snug font-normal"
+                  className="rounded-md w-full outline-none bg-white text-black py-[11px] px-4 leading-snug font-normal"
                   placeholder="Type job keyword"
                 />
 

@@ -11,7 +11,7 @@ const Footer = () => {
           className="footer-area__top relative rounded-[0px,0px,12px,12px] -mt-16 
         bg-[hsl(226,100%,16.5%)]"
         >
-          <div className="flex relative justify-between p-[40px,60px]">
+          <div className="flex relative justify-between py-10 px-[60px]">
             <div>
               <h4 className="text-white mb-2.5 text-3xl" data-s-length="1">
                 I&apos;m looking for interpretation{" "}
@@ -44,7 +44,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-4 gap-[40px,20px] py-14">
+        <div className="grid grid-cols-4 gap-y-10 gap-x-5 py-14">
           <div>
             <h5 className="text-white mb-5 font-semibold">Navigation </h5>
             <ul className="flex flex-col">
@@ -210,6 +210,7 @@ const Footer = () => {
                     <svg
                       role="img"
                       viewBox="0 0 24 24"
+                      className="size-6"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <title>X</title>
@@ -224,7 +225,7 @@ const Footer = () => {
                     title="Linkedin"
                     className="social-list__link flex-center"
                   >
-                    <LinkedinIcon />
+                    <LinkedinIcon className="size-6" />
                   </a>{" "}
                 </li>
                 <li className="social-list__item">
@@ -237,6 +238,7 @@ const Footer = () => {
                     <svg
                       role="img"
                       viewBox="0 0 24 24"
+                      className="size-6"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <title>Instagram</title>
