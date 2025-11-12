@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="flex relative justify-between p-[40px,60px]">
             <div>
               <h4 className="text-white mb-2.5 text-3xl" data-s-length="1">
-                I'm looking for interpretation{" "}
+                I&apos;m looking for interpretation{" "}
                 <span className="text-highlight">work</span>
               </h4>
               <p className="mb-6 max-w-96 text-white">

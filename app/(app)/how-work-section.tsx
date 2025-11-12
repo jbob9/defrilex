@@ -22,7 +22,7 @@ const HowWorkSection = () => {
               <p className="text-[hsl(0,0%,51%)] mx-auto max-w-md text-lg leading-tight font-normal">
                 {" "}
                 Whether you need 5, 10, 20 or 100 professional interpreters,
-                access the world's best talent instantly.
+                access the world&paos;s best talent instantly.
               </p>
             </div>
           </div>

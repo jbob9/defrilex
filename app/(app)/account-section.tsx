@@ -12,7 +12,7 @@ const AccountSection = () => {
             <div className="bg-[hsl(226,100%,16.5%)] p-[45px,60px] md:p-[30px,40px] w-full relative rounded-lg">
               <div className="max-w-[270px]">
                 <h1 className="font-semibold text-white leading-snug text-4xl">
-                  I'm looking for interpretation{" "}
+                  I&apos;m looking for interpretation{" "}
                   <span className="text-highlight">work</span>
                 </h1>
                 <p className="font-semibold max-w-[235px] text-white">
