@@ -10,6 +10,8 @@ const Talents = () => {
           { title: "Talents freelancers", path: "/talents" },
         ]}
       />
+
+      <div className="contianer mx-auto py-20"></div>
     </div>
   );
 };

@@ -6,19 +6,19 @@ const Banner = () => {
   return (
     <section className="relative z-1 pt-[120px] pb-[100px] px-0 overflow-hidden bg-[hsl(226,100%,calc(33%-33%*0.5))]">
       <div className="absolute bottom-0 right-0 -z-1">
-        <Image src="/banner-shape.webp" alt="" width={475} height={630} />
+        <Image src="/banner-shape.webp" alt="" width={475} height={630} className="w-full h-full" />
       </div>
-      <div className="container mx-auto px-3 w-full">
-        <div className="flex flex-wrap items-start -mt-3 -mx-3">
-          <div className="col-lg-6">
+      <div className="md:container mx-3 md:mx-auto px-3 w-full">
+        <div className="grid grid-cols-2 items-start -mt-3 -mx-3">
+          <div className="">
             <div>
-              <h1 className="text-white text-5xl font-bold">
+              <h1 className="text-white text-3xl md:text-5xl font-bold">
                 Connecting Top Interpreter Talent with Global Opportunities—On{" "}
                 <span className="text-highlight">Demand.</span>
               </h1>
             </div>
             <form id="dynamic-route">
-              <div className="flex items-center gap-2.5 bg-white mt-7 w-full rounded-md">
+              <div className="flex flex-col md:flex-row items-center gap-2.5  mt-7 w-full rounded-md">
                 <input
                   type="search"
                   name="search"
@@ -26,7 +26,7 @@ const Banner = () => {
                   placeholder="Type job keyword"
                 />
 
-                <Button size={"icon"} className="rounded-l-none">
+                <Button size={"icon"} className="rounded-l-none w-full md:size-12">
                   <SearchIcon className="hidden md:block" />
                   <small className="block md:hidden">Search</small>
                 </Button>
@@ -35,7 +35,7 @@ const Banner = () => {
 
             {/* Buyer wraper */}
           </div>
-          <div className="col-lg-6 block sm:hidden">
+          <div className="block sm:hidden">
             <div className="relative z-1">
               <div className="max-w-[570px]">
                 <Image

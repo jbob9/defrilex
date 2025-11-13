@@ -4,14 +4,14 @@ const FilterSection = () => {
       <div>
         <div className="mb-5 pb-4 border-b">
           <div className="mt-[30px] p-0 border-0 bg-transparent text-[#212529]">
-            <h2 className="leading-none mb-0 p-0 text-[2.8125rem] font-bold text-[hsl(0,0%,13%)]">
+            <h2 className="leading-none mb-0 p-0 text-xl font-bold text-[hsl(0,0%,13%)]">
               Budget
             </h2>
             <div>
               <div className="mt-6 p-0">
                 <ul>
                   <li className="mb-3">
-                    <div className="grid grid-cols-3 mt-3 items-center gap-2">
+                    <div className="flex items-center gap-2">
                       <input
                         className="text-black border w-full leading-tight bg-white rounded-md py-[9px] px-4 font-normal"
                         name="min_budget"
@@ -33,7 +33,7 @@ const FilterSection = () => {
           </div>
         </div>
         <div className="mb-5 pb-4 border-b">
-          <h2 className="leading-none mb-0 p-0 text-[2.8125rem] font-bold text-[hsl(0,0%,13%)]">
+          <h2 className="leading-none mb-0 p-0 text-xl font-bold text-[hsl(0,0%,13%)]">
             Categories
           </h2>
           <div>
@@ -42,7 +42,7 @@ const FilterSection = () => {
                 <li className="mb-3">
                   <div className="flex flex-wrap">
                     <label
-                      className="flex items-center justify-center gap-1 text-[hsl(0,0%,51%)] font-semibold pl-3 cursor-pointer text-sm w-[calc(100%-16px)]"
+                      className="flex items-center justify-between gap-1 text-[hsl(0,0%,51%)] font-semibold pl-3 cursor-pointer text-sm w-[calc(100%-16px)]"
                       htmlFor="subcat_all"
                     >
                       <span className="text-[hsl(226,100%,33%)]"> All </span>
@@ -61,7 +61,7 @@ const FilterSection = () => {
 
         <div className="mb-5 pb-4 border-b">
           <div className="mt-[30px] p-0 border-0 bg-transparent text-[#212529]">
-            <h2 className="leading-none mb-0 p-0 text-[2.8125rem] font-bold text-[hsl(0,0%,13%)]">
+            <h2 className="leading-none mb-0 p-0 text-xl font-bold text-[hsl(0,0%,13%)]">
               Specialities
             </h2>
             <div>
@@ -79,7 +79,7 @@ const FilterSection = () => {
 
         <div className="mb-5 pb-4 border-b">
           <div className="mt-[30px] p-0 border-0 bg-transparent text-[#212529]">
-            <h2 className="leading-none mb-0 p-0 text-[2.8125rem] font-bold text-[hsl(0,0%,13%)]">
+            <h2 className="leading-none mb-0 p-0 text-xl font-bold text-[hsl(0,0%,13%)]">
               Project Scope
             </h2>
             <div>
@@ -147,11 +147,11 @@ const FilterSection = () => {
 
         <div className="mb-5 pb-4 border-b">
           <div className="mt-[30px] p-0 border-0 bg-transparent text-[#212529]">
-            <h2 className="leading-none mb-0 p-0 text-[2.8125rem] font-bold text-[hsl(0,0%,13%)]">
+            <h2 className="leading-none mb-0 p-0 text-xl font-bold text-[hsl(0,0%,13%)]">
               Experience Level{" "}
             </h2>
-            <div className="accordion-collapse show collapse" id="level">
-              <div className="accordion-body">
+            <div>
+              <div className="p-0 mt-6">
                 <ul>
                   <li className="mb-3">
                     <div className="flex flex-wrap">
