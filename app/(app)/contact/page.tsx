@@ -145,7 +145,7 @@ const Contact = () => {
                 </p>
                 <form method="post" className="pr-2.5">
                   <div className="flex flex-col gap-4">
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
                         <label
                           className="font-semibold mb-2 text-sm text-[hsl(0,0%,13%)] required"

@@ -1,5 +1,5 @@
 import { AuthForm } from "../auth-form";
 
 export default function LoginPage() {
-  return <AuthForm />;
+  return <AuthForm action={"login"} />;
 }
