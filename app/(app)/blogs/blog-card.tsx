@@ -24,7 +24,7 @@ const BlogCard = ({
           alt=""
         />
       </div>
-      <div className="absolute bottom-5 lef-1/2 z-2 -translate-x-1/2 w-[90%] md:w-[85%]">
+      <div className="absolute bottom-5 lef-4 z-2 w-[90%] md:w-[85%]">
         <h6 className="text-white overflow-hidden text-ellipsis mb-2.5 text-xl">
           {title}
         </h6>

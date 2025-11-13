@@ -18,7 +18,7 @@ const CustomBreadcrumb = ({
           <div className="max-w-full px-3">
             <div className="text-center">
               <h3 className="text-white mb-1 text-4xl">{title}</h3>
-              <ul className="flex flex-wrap justify-center">
+              <ul className="flex flex-wrap justify-center gap-1.5">
                 {links.map((link, i) => {
                   return (
                     <>

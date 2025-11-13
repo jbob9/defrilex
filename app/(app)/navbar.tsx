@@ -20,7 +20,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto w-full px-3 md:px-6">
         <nav className="relative flex items-center justify-between flex-wrap md:flex-nowrap md:justify-start p-0 py-3">
-          <Link className="mr-16" href="/">
+          <Link className="mr-0 md:mr-16" href="/">
             <Image
               src="/logo.webp"
               className="w-36 h-8 md:h-11"
@@ -36,7 +36,7 @@ const Navbar = () => {
           </div>
 
           <Button
-            className="block md:hidden border-transparent bg-transparent text-black p-0 border-0 ml-2"
+            className="block lg:hidden border-transparent bg-transparent text-black p-0 border-0 ml-2"
             type="button"
             size={"icon-lg"}
             onClick={handleClick}
@@ -48,11 +48,11 @@ const Navbar = () => {
             className={cn(
               "flex grow basis-full md:basis-auto items-center mt-6 md:mt-0 transition-all duration-300 ease-in-out",
               {
-                "hidden md:flex": !isOpen,
+                "hidden lg:flex": !isOpen,
               }
             )}
           >
-            <ul className="flex flex-col md:flex-row items-start md:items-center me-auto py-0 mb-0 list-none pl-0 gap-3 md:gap-4 w-full md:w-auto">
+            <ul className="flex flex-col lg:flex-row items-start md:items-center me-auto py-0 mb-0 list-none pl-0 gap-3 md:gap-4 w-full md:w-auto">
               <li className="relative w-full md:w-auto border-b  pb-2 md:pb-0 md:border-b-0">
                 <Link
                   className="relative cursor-pointer font-semibold text-base text-[hsl(226,100%,33%)] hover:text-primary"
@@ -119,7 +119,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <div className="flex flex-wrap justify-between items-center">
               <ul className="gap-6 flex flex-wrap justify-between items-center">
                 <li>

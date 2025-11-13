@@ -33,7 +33,7 @@ const Jobs = () => {
                     placeholder="Type job keyword"
                     autoComplete="off"
                   />
-                  <span className="absolute left-3.5 top-1/2 h-full -translate-y-1/2 cursor-pointer items-center justify-center text-[hsl(0,0%,13%)]">
+                  <span className="absolute left-3.5 top-1/2 -translate-y-1/2 cursor-pointer items-center justify-center text-[hsl(0,0%,13%)]">
                     <SearchIcon />{" "}
                   </span>
                 </div>
@@ -46,7 +46,7 @@ const Jobs = () => {
                     src="/empty.webp"
                     alt="empty"
                   />
-                  <p className="text-muted mt-3">No job found!</p>
+                  <p className="text-muted-foreground mt-3">No job found!</p>
                 </div>
               </div>
             </div>
