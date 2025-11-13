@@ -4,7 +4,7 @@ import Link from "next/link";
 const AuthLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="flex items-center justify-center bg-white min-h-svh">
-      <div className="flex flex-col pt-8 bg-white gap-6">
+      <div className="flex flex-col pt-8 bg-white gap-6 mx-5 min-w-full md:min-w-lg">
         <div className="flex justify-center ">
           <Link href="/">
             <Image

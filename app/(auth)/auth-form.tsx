@@ -23,7 +23,7 @@ export function AuthForm({
         <p className="text-muted-foreground text-sm text-balance">
           {action === "login" ? "Welcome back" : "Welcome to Defrilex"}
         </p>
-        <h1 className="text-2xl font-bold capitalize">{action} account</h1>
+        <h1 className="text-2xl font-bold capitalize text-black">{action} account</h1>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
         <Button variant="outline" type="button">

@@ -29,8 +29,8 @@ const WhyChooseSection = () => {
                 alt=""
               />
             </span>
-            <div className="mt-5">
-              <h5 className="font-semibold mb-6 text-xl">
+            <div>
+              <h5 className="font-semibold mb-6 mt-5 text-xl text-black">
                 150,000+ Active Interpreters{" "}
               </h5>
               <p className="font-normal text-[hsl(0,0%,46%)]">
@@ -48,8 +48,11 @@ const WhyChooseSection = () => {
                 alt=""
               />
             </span>
-            <div className="mt-5">
-              <h5 className="font-semibold mb-6 text-xl"> No upfront costs </h5>
+            <div>
+              <h5 className="font-semibold mb-6 mt-5 text-xl text-black">
+                {" "}
+                No upfront costs{" "}
+              </h5>
               <p className="font-normal text-[hsl(0,0%,46%)]">
                 Start for free—post your project or search for jobs with no
                 subscriptions or hidden fees. You only pay when you hire the
@@ -67,8 +70,8 @@ const WhyChooseSection = () => {
                 alt=""
               />
             </span>
-            <div className="mt-5">
-              <h5 className="font-semibold mb-6 text-xl">
+            <div>
+              <h5 className="font-semibold mb-6 mt-5 text-xl text-black">
                 {" "}
                 Ready-Now Workforce{" "}
               </h5>
@@ -87,8 +90,11 @@ const WhyChooseSection = () => {
                 alt=""
               />
             </span>
-            <div className="mt-5">
-              <h5 className="font-semibold mb-6 text-xl"> Proven at Scale </h5>
+            <div>
+              <h5 className="font-semibold mb-6 mt-5 text-xl text-black">
+                {" "}
+                Proven at Scale{" "}
+              </h5>
               <p className="font-normal text-[hsl(0,0%,46%)]">
                 Trusted by Fortune 500 companies for mission-critical
                 communications
@@ -105,8 +111,8 @@ const WhyChooseSection = () => {
                 alt=""
               />
             </span>
-            <div className="mt-5">
-              <h5 className="font-semibold mb-6 text-xl">
+            <div>
+              <h5 className="font-semibold mb-6 mt-5 text-xl text-black">
                 {" "}
                 Instant Matching Technology{" "}
               </h5>
@@ -115,7 +121,7 @@ const WhyChooseSection = () => {
               </p>
             </div>
           </div>
-          <div className="pt-0 pl-[60px] pr-[30px] pb-[60px] border-none md:border border-t-0 border-l-0 text-center md:text-start">
+          <div className="pt-0 pl-0 md:pl-[60px] pr-0 md:pr-[30px] pb-[60px] border-none md:border border-t-0 border-l-0 text-center md:text-start">
             <span className="flex justify-center md:justify-start">
               <Image
                 height={45}
@@ -125,8 +131,8 @@ const WhyChooseSection = () => {
                 alt=""
               />
             </span>
-            <div className="mt-5">
-              <h5 className="font-semibold mb-6 text-xl">
+            <div>
+              <h5 className="font-semibold mb-6 mt-5 text-xl text-black">
                 {" "}
                 Intelligent Compliance{" "}
               </h5>

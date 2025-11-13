@@ -13,11 +13,11 @@ const Footer = () => {
         >
           <div className="flex flex-col md:flex-row relative justify-between py-10 px-[30px] md:px-[60px] gap-6 md:gap-0">
             <div>
-              <h4 className="text-white mb-2.5 text-3xl" data-s-length="1">
+              <h4 className="text-white mb-2.5 text-2xl md:text-3xl" >
                 I&apos;m looking for interpretation{" "}
                 <span className="text-highlight">work</span>
               </h4>
-              <p className="mb-6 max-w-96 text-white">
+              <p className="mb-6 max-w-96 text-white text-sm md:text-base">
                 {" "}
                 Join our global network of professional interpreters.Connect
                 with companies worldwide, and get hired for projects that match
@@ -28,11 +28,11 @@ const Footer = () => {
               </Link>
             </div>
             <div>
-              <h4 className="text-white mb-2.5 text-3xl">
+              <h4 className="text-white mb-2.5 text-2xl md:text-3xl">
                 I need interpreters for my{" "}
                 <span className="text-highlight">project</span>
               </h4>
-              <p className="mb-6 max-w-96 text-white">
+              <p className="mb-6 max-w-96 text-white text-sm md:text-base">
                 {" "}
                 Access verified interpretation talent on-demand. Post your
                 requirements, hire skilled interpreters instantly, and manage
@@ -180,7 +180,7 @@ const Footer = () => {
                 </div>
               </li>
             </ul>
-            <div>
+            <div className="mt-2">
               <p className="title">Follow Us </p>
               <ul className="flex items-center gap-2 py-3">
                 <li className="social-list__item">

@@ -22,10 +22,10 @@ const Contact = () => {
         ]}
       />
       <div className="py-20 md:py-28">
-        <div className="container mx-auto max-w-6xl">
+        <div className="md:container mx-4 md:mx-auto max-w-6xl">
           <div className="grid grid-cols-1 md:grid-cols-11 justify-between items-center flex-wrap-reverse gap-6">
             <div className="col-span-full md:col-span-4 order-last md:order-first">
-              <div className="relative pt-[100px] px-[30px] pb-[50px] md:py-[55px] md:px-[30px] contact-item-wrapper max-w-[316px]">
+              <div className="relative pt-16 md:pt-[100px] px-[30px] pb-[50px] md:py-[55px] md:px-[30px] contact-item-wrapper max-w-full md:max-w-[316px] bg-white md:bg-transparent rounded-xl md:rounded-none">
                 <h5 className="font-bold leading-tight text-xl text-[hsl(0,0%,13%)] mb-4">
                   Contact with Us
                 </h5>
@@ -203,10 +203,11 @@ const Contact = () => {
                         className="rounded-md w-full outline-none bg-white text-black border  font-normal leading-tight text-base block py-[11px] px-4"
                         required
                         id="message"
+                        rows={6}
                       ></textarea>
                     </div>
                     <div>
-                      <Button type="submit" className="w-full">
+                      <Button type="submit" className="w-full h-11">
                         Send Message
                       </Button>
                     </div>
