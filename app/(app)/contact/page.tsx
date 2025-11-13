@@ -23,15 +23,15 @@ const Contact = () => {
       />
       <div className="py-20 md:py-28">
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 justify-between items-center flex-wrap-reverse">
+          <div className="grid grid-cols-1 md:grid-cols-11 justify-between items-center flex-wrap-reverse">
             <div className="col-span-full md:col-span-4">
               <div className="relative pt-[100px] px-[30px] pb-[50px] md:py-[55px] md:px-[30px] contact-item-wrapper">
-                <h5 className="font-bold leading-tight text-xl text-[hsl(0,0%,13%)]">
+                <h5 className="font-bold leading-tight text-xl text-[hsl(0,0%,13%)] mb-4">
                   Contact with Us
                 </h5>
                 <div>
                   <div className="flex items-start mb-3.5 gap-3.5">
-                    <span className="size-11 rounded-full shrink-0 flex justify-center items-center text-[hsl(226,100%,33%)] bg-[hsl(226,100%,33%/0.15)]">
+                    <span className="size-11 rounded-full shrink-0 flex justify-center items-center text-[hsl(226,100%,33%)] bg-[hsl(226,100%,33%)]/15">
                       <HouseIcon />
                     </span>
                     <div className="w-[calc(100%-45px)]">
@@ -88,7 +88,7 @@ const Contact = () => {
                 <div className="contact-item-wrapper__bottom">
                   <div className="social-list-wrapper">
                     <p className="title"> Follow Us </p>
-                    <ul className="social-list">
+                    <ul className="flex items-center gap-2.5">
                       <li className="social-list__item">
                         <a
                           href="https://www.facebook.com/"
@@ -147,49 +147,60 @@ const Contact = () => {
                   <div className="flex flex-col gap-4">
                     <div className="grid grid-cols-2 gap-4">
                       <div>
-                        <label className="font-semibold mb-2 text-sm text-[hsl(0,0%,13%)] required" htmlFor="name">
+                        <label
+                          className="font-semibold mb-2 text-sm text-[hsl(0,0%,13%)] required"
+                          htmlFor="name"
+                        >
                           Name
                         </label>
                         <input
                           name="name"
                           type="text"
-                          className="rounded-md w-full outline-none bg-white text-black border border-black font-normal leading-tight text-base block py-[11px] px-4"
+                          className="rounded-md w-full outline-none bg-white text-black border  font-normal leading-tight text-base block py-[11px] px-4"
                           value=""
                           required
                           id="name"
                         />
                       </div>
                       <div>
-                        <label className="font-semibold mb-2 text-sm text-[hsl(0,0%,13%)] required">Email</label>
+                        <label className="font-semibold mb-2 text-sm text-[hsl(0,0%,13%)] required">
+                          Email
+                        </label>
                         <input
                           name="email"
                           type="email"
-                          className="rounded-md w-full outline-none bg-white text-black border border-black font-normal leading-tight text-base block py-[11px] px-4"
+                          className="rounded-md w-full outline-none bg-white text-black border font-normal leading-tight text-base block py-[11px] px-4"
                           value=""
                           required
                         />
                       </div>
                     </div>
                     <div>
-                      <label className="font-semibold mb-2 text-sm text-[hsl(0,0%,13%)] required" htmlFor="subject">
+                      <label
+                        className="font-semibold mb-2 text-sm text-[hsl(0,0%,13%)] required"
+                        htmlFor="subject"
+                      >
                         Subject
                       </label>
                       <input
                         name="subject"
                         type="text"
-                        className="rounded-md w-full outline-none bg-white text-black border border-black font-normal leading-tight text-base block py-[11px] px-4"
+                        className="rounded-md w-full outline-none bg-white text-black border  font-normal leading-tight text-base block py-[11px] px-4"
                         value=""
                         required
                         id="subject"
                       />
                     </div>
                     <div>
-                      <label className="font-semibold mb-2 text-sm text-[hsl(0,0%,13%)] required" htmlFor="message">
+                      <label
+                        className="font-semibold mb-2 text-sm text-[hsl(0,0%,13%)] required"
+                        htmlFor="message"
+                      >
                         Message
                       </label>
                       <textarea
                         name="message"
-                        className="rounded-md w-full outline-none bg-white text-black border border-black font-normal leading-tight text-base block py-[11px] px-4"
+                        className="rounded-md w-full outline-none bg-white text-black border  font-normal leading-tight text-base block py-[11px] px-4"
                         required
                         id="message"
                       ></textarea>

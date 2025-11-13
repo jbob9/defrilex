@@ -1,37 +1,26 @@
 const FilterSection = () => {
   return (
-    <div className="category-sidebar">
-      <span className="sidebar-filter__close d-xl-none d-flex">
-        <i className="las la-times"></i>
-      </span>
-      <div className="accordion sidebar--acordion">
-        <div className="filter-block">
-          <div className="accordion-item">
-            <h2 className="accordion-header">
-              <button
-                className="accordion-button"
-                data-bs-toggle="collapse"
-                data-bs-target="#budget"
-                type="button"
-                aria-expanded="true"
-              >
-                Budget{" "}
-              </button>
+    <div className="rounded-lg w-[320px] bg-white p-5">
+      <div>
+        <div className="mb-5 pb-4 border-b">
+          <div className="mt-[30px] p-0 border-0 bg-transparent text-[#212529]">
+            <h2 className="leading-none mb-0 p-0 text-[2.8125rem] font-bold text-[hsl(0,0%,13%)]">
+              Budget
             </h2>
-            <div className="accordion-collapse show collapse" id="budget">
-              <div className="accordion-body">
-                <ul className="filter-block__list">
-                  <li className="filter-block__item">
-                    <div className="project-value">
+            <div>
+              <div className="mt-6 p-0">
+                <ul>
+                  <li className="mb-3">
+                    <div className="grid grid-cols-3 mt-3 items-center gap-2">
                       <input
-                        className="form--control"
+                        className="text-black border w-full leading-tight bg-white rounded-md py-[9px] px-4 font-normal"
                         name="min_budget"
                         type="number"
                         placeholder="Min"
                       />
-                      <span className="project-value__text"> to </span>
+                      <span className="inline-block"> to </span>
                       <input
-                        className="form--control"
+                        className="text-black border w-full leading-tight bg-white rounded-md py-[9px] px-4 font-normal"
                         name="max_budget"
                         type="number"
                         placeholder="Max"
@@ -43,126 +32,110 @@ const FilterSection = () => {
             </div>
           </div>
         </div>
-        <div className="filter-block">
-          <h2 className="accordion-header">
-            <button
-              className="accordion-button"
-              data-bs-toggle="collapse"
-              data-bs-target="#category"
-              type="button"
-              aria-expanded="true"
-            >
-              Categories{" "}
-            </button>
+        <div className="mb-5 pb-4 border-b">
+          <h2 className="leading-none mb-0 p-0 text-[2.8125rem] font-bold text-[hsl(0,0%,13%)]">
+            Categories
           </h2>
-          <div className="accordion-collapse show collapse" id="category">
-            <div className="accordion-body">
-              <ul className="filter-block__list category">
-                <li className="filter-block__item">
-                  <div className="form--check">
-                    <input
-                      className="form-check-input"
-                      id="subcat_all"
-                      name="category_id"
-                      type="radio"
-                      value=""
-                      checked
-                    />
-                    <label className="form-check-label" htmlFor="subcat_all">
-                      <span className="label-text"> All </span>
-                      <span className="label-text"> (0) </span>
+          <div>
+            <div className="p-0 mt-6">
+              <ul>
+                <li className="mb-3">
+                  <div className="flex flex-wrap">
+                    <label
+                      className="flex items-center justify-center gap-1 text-[hsl(0,0%,51%)] font-semibold pl-3 cursor-pointer text-sm w-[calc(100%-16px)]"
+                      htmlFor="subcat_all"
+                    >
+                      <span className="text-[hsl(226,100%,33%)]"> All </span>
+                      <span className="text-right min-w-[30px]"> (0) </span>
                     </label>
                   </div>
                 </li>
-                <li className="filter-block__item"> Categories not found!</li>
-                <li className="load-more-button text-end">Show more</li>
+                <li className="mb-3 text-neutral-400">
+                  {" "}
+                  Categories not found!
+                </li>
               </ul>
             </div>
           </div>
         </div>
 
-        <div className="filter-block">
-          <div className="accordion-item">
-            <h2 className="accordion-header">
-              <button
-                className="accordion-button"
-                data-bs-toggle="collapse"
-                data-bs-target="#subcategory"
-                type="button"
-                aria-expanded="true"
-              >
-                Specialities{" "}
-              </button>
+        <div className="mb-5 pb-4 border-b">
+          <div className="mt-[30px] p-0 border-0 bg-transparent text-[#212529]">
+            <h2 className="leading-none mb-0 p-0 text-[2.8125rem] font-bold text-[hsl(0,0%,13%)]">
+              Specialities
             </h2>
-            <div className="accordion-collapse show collapse" id="subcategory">
-              <div className="accordion-body">
-                <ul className="filter-block__list">
-                  <li className="filter-block__item"> Speciality not found!</li>
-                  <li className="load-more-button text-end">Show more</li>
+            <div>
+              <div className="p-0 mt-6">
+                <ul>
+                  <li className="mb-3 text-neutral-400">
+                    {" "}
+                    Speciality not found!
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="filter-block">
-          <div className="accordion-item">
-            <h2 className="accordion-header">
-              <button
-                className="accordion-button"
-                data-bs-toggle="collapse"
-                data-bs-target="#scope"
-                type="button"
-                aria-expanded="true"
-              >
-                Project Scope{" "}
-              </button>
+        <div className="mb-5 pb-4 border-b">
+          <div className="mt-[30px] p-0 border-0 bg-transparent text-[#212529]">
+            <h2 className="leading-none mb-0 p-0 text-[2.8125rem] font-bold text-[hsl(0,0%,13%)]">
+              Project Scope
             </h2>
-            <div className="accordion-collapse show collapse" id="scope">
-              <div className="accordion-body">
-                <ul className="filter-block__list">
-                  <li className="filter-block__item">
-                    <div className="form--check">
+            <div>
+              <div className="p-0 mt-6">
+                <ul>
+                  <li className="mb-3">
+                    <div className="flex flex-wrap">
                       <input
-                        className="form-check-input"
+                        className="bg-transparent relative rounded-none cursor-pointer size-4 border shadow-none bg-center bg-contain bg-no-repeat mt-1"
                         id="large"
                         name="project_scope[]"
                         type="checkbox"
                         value="1"
                       />
-                      <label className="form-check-label" htmlFor="large">
+                      <label
+                        className="flex justify-between gap-1 font-semibold pl-3 cursor-pointer text-sm w-[calc(100%-16px)] text-[hsl(0,0%,51%)]"
+                        htmlFor="large"
+                      >
                         <span className="label-text"> Large </span>
-                        <span className="label-text"> (0) </span>
+                        <span className="text-right"> (0) </span>
                       </label>
                     </div>
                   </li>
-                  <li className="filter-block__item">
-                    <div className="form--check">
+                  <li className="mb-3">
+                    <div className="flex flex-wrap">
                       <input
-                        className="form-check-input"
+                        className="bg-transparent relative rounded-none cursor-pointer size-4 border shadow-none bg-center bg-contain bg-no-repeat mt-1"
                         id="medium"
                         name="project_scope[]"
                         type="checkbox"
                         value="2"
                       />
-                      <label className="form-check-label" htmlFor="medium">
+                      <label
+                        className="flex justify-between gap-1 font-semibold pl-3 cursor-pointer text-sm w-[calc(100%-16px)] text-[hsl(0,0%,51%)]"
+                        htmlFor="medium"
+                      >
                         <span className="label-text"> Medium </span>
-                        <span className="label-text"> (0) </span>
+                        <span className="text-right"> (0) </span>
                       </label>
                     </div>
                   </li>
-                  <li className="filter-block__item">
-                    <div className="form--check">
+                  <li className="mb-3">
+                    <div className="flex flex-wrap">
                       <input
-                        className="form-check-input"
+                        className="bg-transparent relative rounded-none cursor-pointer size-4 border shadow-none bg-center bg-contain bg-no-repeat mt-1"
                         id="small"
                         name="project_scope[]"
                         type="checkbox"
                         value="3"
                       />
-                      <label className="form-check-label" htmlFor="small">
+                      <label
+                        className="flex justify-between gap-1 font-semibold pl-3 cursor-pointer text-sm w-[calc(100%-16px)] text-[hsl(0,0%,51%)]"
+                        htmlFor="small"
+                      >
                         <span className="label-text"> Small </span>
-                        <span className="label-text"> (0) </span>
+                        <span className="text-right"> (0) </span>
                       </label>
                     </div>
                   </li>
@@ -172,82 +145,83 @@ const FilterSection = () => {
           </div>
         </div>
 
-        <div className="filter-block">
-          <div className="accordion-item">
-            <h2 className="accordion-header">
-              <button
-                className="accordion-button"
-                data-bs-toggle="collapse"
-                data-bs-target="#level"
-                type="button"
-                aria-expanded="true"
-              >
-                Experience Level{" "}
-              </button>
+        <div className="mb-5 pb-4 border-b">
+          <div className="mt-[30px] p-0 border-0 bg-transparent text-[#212529]">
+            <h2 className="leading-none mb-0 p-0 text-[2.8125rem] font-bold text-[hsl(0,0%,13%)]">
+              Experience Level{" "}
             </h2>
             <div className="accordion-collapse show collapse" id="level">
               <div className="accordion-body">
-                <ul className="filter-block__list">
-                  <li className="filter-block__item">
-                    <div className="form--check">
+                <ul>
+                  <li className="mb-3">
+                    <div className="flex flex-wrap">
                       <input
-                        className="form-check-input"
+                        className="bg-transparent relative rounded-none cursor-pointer size-4 border shadow-none bg-center bg-contain bg-no-repeat mt-1"
                         id="pro-level"
                         name="skill_level[]"
                         type="checkbox"
                         value="1"
                       />
-                      <label className="form-check-label" htmlFor="pro-level">
+                      <label
+                        className="flex justify-between gap-1 font-semibold pl-3 cursor-pointer text-sm w-[calc(100%-16px)] text-[hsl(0,0%,51%)]"
+                        htmlFor="pro-level"
+                      >
                         <span className="label-text"> Pro Level</span>
-                        <span className="label-text"> (0) </span>
+                        <span className="text-right"> (0) </span>
                       </label>
                     </div>
                   </li>
-                  <li className="filter-block__item">
-                    <div className="form--check">
+                  <li className="mb-3">
+                    <div className="flex flex-wrap">
                       <input
-                        className="form-check-input"
+                        className="bg-transparent relative rounded-none cursor-pointer size-4 border shadow-none bg-center bg-contain bg-no-repeat mt-1"
                         id="expart"
                         name="skill_level[]"
                         type="checkbox"
                         value="2"
                       />
-                      <label className="form-check-label" htmlFor="expart">
+                      <label
+                        className="flex justify-between gap-1 font-semibold pl-3 cursor-pointer text-sm w-[calc(100%-16px)] text-[hsl(0,0%,51%)]"
+                        htmlFor="expart"
+                      >
                         <span className="label-text"> Expart </span>
-                        <span className="label-text"> (0) </span>
+                        <span className="text-right"> (0) </span>
                       </label>
                     </div>
                   </li>
-                  <li className="filter-block__item">
-                    <div className="form--check">
+                  <li className="mb-3">
+                    <div className="flex flex-wrap">
                       <input
-                        className="form-check-input"
+                        className="bg-transparent relative rounded-none cursor-pointer size-4 border shadow-none bg-center bg-contain bg-no-repeat mt-1"
                         id="intermediate"
                         name="skill_level[]"
                         type="checkbox"
                         value="3"
                       />
                       <label
-                        className="form-check-label"
+                        className="flex justify-between gap-1 font-semibold pl-3 cursor-pointer text-sm w-[calc(100%-16px)] text-[hsl(0,0%,51%)]"
                         htmlFor="intermediate"
                       >
                         <span className="label-text">Intermediate </span>
-                        <span className="label-text"> (0)</span>
+                        <span className="text-right"> (0)</span>
                       </label>
                     </div>
                   </li>
-                  <li className="filter-block__item">
-                    <div className="form--check">
+                  <li className="mb-3">
+                    <div className="flex flex-wrap">
                       <input
-                        className="form-check-input"
+                        className="bg-transparent relative rounded-none cursor-pointer size-4 border shadow-none bg-center bg-contain bg-no-repeat mt-1"
                         id="entry"
                         name="skill_level[]"
                         type="checkbox"
                         value="4"
                       />
-                      <label className="form-check-label" htmlFor="entry">
+                      <label
+                        className="flex justify-between gap-1 font-semibold pl-3 cursor-pointer text-sm w-[calc(100%-16px)] text-[hsl(0,0%,51%)]"
+                        htmlFor="entry"
+                      >
                         <span className="label-text">Entry </span>
-                        <span className="label-text"> (0) </span>
+                        <span className="text-right"> (0) </span>
                       </label>
                     </div>
                   </li>
