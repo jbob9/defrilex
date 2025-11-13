@@ -19,7 +19,7 @@ const Navbar = () => {
       id="header"
     >
       <div className="container mx-auto w-full px-3 md:px-6">
-        <nav className="relative flex items-center justify-between flex-wrap md:flex-nowrap md:justify-start p-0 py-3">
+        <nav className="relative flex items-center justify-between flex-wrap md:flex-nowrap lg:justify-start p-0 py-3">
           <Link className="mr-0 md:mr-16" href="/">
             <Image
               src="/logo.webp"
@@ -29,7 +29,7 @@ const Navbar = () => {
               height={45}
             />
           </Link>
-          <div className="block md:hidden ml-auto">
+          <div className="block lg:hidden ml-auto">
             <Link href="/jobs/post" className={cn(buttonVariants())}>
               Post Job{" "}
             </Link>

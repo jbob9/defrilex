@@ -6,7 +6,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="mt-20 text-white bg-[hsl(0,0%,13%)]">
-      <div className=" px-3 w-full mx-5 md:mx-24">
+      <div className=" px-3 w-full mx-auto max-w-6xl">
         <div
           className="relative rounded-lg -top-8 md:-top-16 
         bg-[hsl(226,100%,16.5%)]"
@@ -153,7 +153,7 @@ const Footer = () => {
             <ul className="footer-contact-menu">
               <li className="footer-contact-menu__item">
                 <div className="text-[hsl(226,100%,33%)]">
-                  <MapPin className="size-5"/>
+                  <MapPin className="size-5" />
                 </div>
                 <div className="footer-contact-menu__item-content">
                   <p> 12000 Biscayne Blvd Suite 205, Miami, FL 33181</p>
@@ -161,7 +161,7 @@ const Footer = () => {
               </li>
               <li className="footer-contact-menu__item">
                 <div className="text-[hsl(226,100%,33%)]">
-                  <PhoneIcon className="size-5"/>
+                  <PhoneIcon className="size-5" />
                 </div>
                 <div className="footer-contact-menu__item-content">
                   <a title="Call us" href="tel:+1(888) 982-0561">
@@ -171,7 +171,7 @@ const Footer = () => {
               </li>
               <li className="footer-contact-menu__item">
                 <div className="text-[hsl(226,100%,33%)]">
-                  <SendIcon className="size-5"/>
+                  <SendIcon className="size-5" />
                 </div>
                 <div className="footer-contact-menu__item-content">
                   <a title="E-mail us" href="mailto:contact@defrilex.com">
