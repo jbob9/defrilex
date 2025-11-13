@@ -19,7 +19,7 @@ const WhyChooseSection = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3">
-          <div className="pt-0 pl-0 pr-[30px] pb-[60px] border border-t-0 border-l-0 text-center md:text-start">
+          <div className="pt-0 pl-0 pr-[30px] pb-[60px] border-none md:border border-t-0 border-l-0 text-center md:text-start">
             <span className="flex justify-center md:justify-start">
               <Image
                 height={45}
@@ -38,8 +38,8 @@ const WhyChooseSection = () => {
               </p>
             </div>
           </div>
-          <div className="pt-0 pl-[60px] pr-[30px] pb-[60px] border border-t-0 border-l-0">
-            <span className="max-w-[45px]">
+          <div className="pt-0 pl-[60px] pr-[30px] pb-[60px] border-none md:border border-t-0 border-l-0 text-center md:text-start">
+            <span className="flex justify-center md:justify-start">
               <Image
                 height={45}
                 width={45}
@@ -57,8 +57,8 @@ const WhyChooseSection = () => {
               </p>
             </div>
           </div>
-          <div className="pt-0 pl-[60px] pr-[30px] pb-[60px] border border-t-0 border-l-0">
-            <span className="max-w-[45px]">
+          <div className="pt-0 pl-[60px] pr-[30px] pb-[60px] border-none md:border border-t-0 border-l-0 text-center md:text-start">
+            <span className="flex justify-center md:justify-start">
               <Image
                 height={45}
                 width={45}
@@ -68,14 +68,17 @@ const WhyChooseSection = () => {
               />
             </span>
             <div className="mt-5">
-              <h5 className="font-semibold mb-6 text-xl"> Ready-Now Workforce </h5>
+              <h5 className="font-semibold mb-6 text-xl">
+                {" "}
+                Ready-Now Workforce{" "}
+              </h5>
               <p className="font-normal text-[hsl(0,0%,46%)]">
                 No waiting, no recruiting—interpreters available 24/7
               </p>
             </div>
           </div>
-          <div className="pt-0 pl-0 pr-[30px] pb-[60px] border border-t-0 border-l-0">
-            <span className="max-w-[45px]">
+          <div className="pt-0 pl-0 pr-[30px] pb-[60px] border-none md:border border-t-0 border-l-0 text-center md:text-start">
+            <span className="flex justify-center md:justify-start">
               <Image
                 height={45}
                 width={45}
@@ -92,8 +95,8 @@ const WhyChooseSection = () => {
               </p>
             </div>
           </div>
-          <div className="pt-0 pl-[60px] pr-[30px] pb-[60px] border border-t-0 border-l-0">
-            <span className="max-w-[45px]">
+          <div className="pt-0 pl-[60px] pr-[30px] pb-[60px] border-none md:border border-t-0 border-l-0 text-center md:text-start">
+            <span className="flex justify-center md:justify-start">
               <Image
                 height={45}
                 width={45}
@@ -112,8 +115,8 @@ const WhyChooseSection = () => {
               </p>
             </div>
           </div>
-          <div className="pt-0 pl-[60px] pr-[30px] pb-[60px] border border-t-0 border-l-0">
-            <span className="max-w-[45px]">
+          <div className="pt-0 pl-[60px] pr-[30px] pb-[60px] border-none md:border border-t-0 border-l-0 text-center md:text-start">
+            <span className="flex justify-center md:justify-start">
               <Image
                 height={45}
                 width={45}
@@ -123,7 +126,10 @@ const WhyChooseSection = () => {
               />
             </span>
             <div className="mt-5">
-              <h5 className="font-semibold mb-6 text-xl"> Intelligent Compliance </h5>
+              <h5 className="font-semibold mb-6 text-xl">
+                {" "}
+                Intelligent Compliance{" "}
+              </h5>
               <p className="font-normal text-[hsl(0,0%,46%)]">
                 Our platform provides secure, AI-powered hiring for regulated
                 industries like healthcare and legal, automatically ensuring

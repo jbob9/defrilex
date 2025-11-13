@@ -127,7 +127,7 @@
   left: -19px;
   top: 5px;
   height: 70px;
-  background-color: hsl(226, 100%, calc(33% - 33% * 0.2));
+  background-color: hsl(226 100% calc(33% - 33% * 0.2));
   z-index: -1;
   transform: rotate(29deg);
 }
@@ -139,7 +139,7 @@
   right: -19px;
   top: 5px;
   height: 70px;
-  background-color: hsl(226, 100%, calc(33% - 33% * 0.2));
+  background-color: hsl(226 100% calc(33% - 33% * 0.2));
   z-index: -1;
   transform: rotate(-29deg);
 }
@@ -154,7 +154,7 @@
   background-origin: "";
   background-color: "";
   background-clip: text;
-  color: hsl(226, 100%, 33%);
+  color: hsl(226 100% 33%);
 }
 
 .breadcrumb::before {

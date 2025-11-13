@@ -6,10 +6,16 @@ const Banner = () => {
   return (
     <section className="relative z-1 pt-[120px] pb-[100px] px-0 overflow-hidden bg-[hsl(226,100%,calc(33%-33%*0.5))]">
       <div className="absolute bottom-0 right-0 -z-1">
-        <Image src="/banner-shape.webp" alt="" width={475} height={630} className="w-full h-full" />
+        <Image
+          src="/banner-shape.webp"
+          alt=""
+          width={475}
+          height={630}
+          className="w-full h-full"
+        />
       </div>
       <div className="md:container mx-3 md:mx-auto px-3 w-full">
-        <div className="grid grid-cols-2 items-start -mt-3 -mx-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-start -mt-3 -mx-3">
           <div className="">
             <div>
               <h1 className="text-white text-3xl md:text-5xl font-bold">
@@ -26,7 +32,10 @@ const Banner = () => {
                   placeholder="Type job keyword"
                 />
 
-                <Button size={"icon"} className="rounded-l-none w-full md:size-12">
+                <Button
+                  size={"icon"}
+                  className="rounded-l-none w-full md:size-12"
+                >
                   <SearchIcon className="hidden md:block" />
                   <small className="block md:hidden">Search</small>
                 </Button>
@@ -35,7 +44,7 @@ const Banner = () => {
 
             {/* Buyer wraper */}
           </div>
-          <div className="block sm:hidden">
+          <div className="hidden sm:block">
             <div className="relative z-1">
               <div className="max-w-[570px]">
                 <Image

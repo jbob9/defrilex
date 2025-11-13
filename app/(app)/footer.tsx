@@ -1,17 +1,17 @@
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { LinkedinIcon } from "lucide-react";
+import { LinkedinIcon, MapPin, PhoneIcon, SendIcon } from "lucide-react";
 import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="mt-auto text-white bg-[hsl(0,0%,13%)]">
-      <div className="container mx-auto px-3 w-full">
+    <footer className="mt-20 text-white bg-[hsl(0,0%,13%)]">
+      <div className=" px-3 w-full mx-5 md:mx-24">
         <div
-          className="footer-area__top relative rounded-lg -mt-16 
+          className="relative rounded-lg -top-8 md:-top-16 
         bg-[hsl(226,100%,16.5%)]"
         >
-          <div className="flex flex-col md:flex-row relative justify-between py-10 px-[60px] gap-6 md:gap-0">
+          <div className="flex flex-col md:flex-row relative justify-between py-10 px-[30px] md:px-[60px] gap-6 md:gap-0">
             <div>
               <h4 className="text-white mb-2.5 text-3xl" data-s-length="1">
                 I&apos;m looking for interpretation{" "}
@@ -152,16 +152,16 @@ const Footer = () => {
             <h5 className="text-white mb-5 font-semibold"> Contact Us</h5>
             <ul className="footer-contact-menu">
               <li className="footer-contact-menu__item">
-                <div className="footer-contact-menu__item-icon">
-                  <i className="fas fa-map-marker-alt"></i>
+                <div className="text-[hsl(226,100%,33%)]">
+                  <MapPin className="size-5"/>
                 </div>
                 <div className="footer-contact-menu__item-content">
                   <p> 12000 Biscayne Blvd Suite 205, Miami, FL 33181</p>
                 </div>
               </li>
               <li className="footer-contact-menu__item">
-                <div className="footer-contact-menu__item-icon">
-                  <i className="fas fa-phone"></i>
+                <div className="text-[hsl(226,100%,33%)]">
+                  <PhoneIcon className="size-5"/>
                 </div>
                 <div className="footer-contact-menu__item-content">
                   <a title="Call us" href="tel:+1(888) 982-0561">
@@ -170,8 +170,8 @@ const Footer = () => {
                 </div>
               </li>
               <li className="footer-contact-menu__item">
-                <div className="footer-contact-menu__item-icon">
-                  <i className="fas fa-envelope"></i>
+                <div className="text-[hsl(226,100%,33%)]">
+                  <SendIcon className="size-5"/>
                 </div>
                 <div className="footer-contact-menu__item-content">
                   <a title="E-mail us" href="mailto:contact@defrilex.com">
@@ -254,13 +254,18 @@ const Footer = () => {
       </div>
       <div className="bg-[rgb(53,52,52)] py-3">
         <div className="container mx-auto py-3 w-full">
-          <div className="flex flex-wrap gap-y-3">
+          <div className="flex flex-wrap justify-center gap-y-3">
             <div className="text-center">
               <div className="text-white">
                 {" "}
                 Copyright ©2025
-                <a href="https://rh.defrilex.com">Defrilex</a> All rights
-                reserved .
+                <a
+                  href="https://rh.defrilex.com"
+                  className="text-[hsl(226,100%,33%)]"
+                >
+                  Defrilex
+                </a>{" "}
+                All rights reserved .
               </div>
             </div>
           </div>

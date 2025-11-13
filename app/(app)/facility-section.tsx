@@ -19,84 +19,84 @@ const FacilitySection = () => {
             </div>
           </div>
         </div>
-       <div className="flex justify-center mx-3">
-         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
-          <div className="pr-0 md:pr-12">
-            <div className="py-14 px-10 rounded-lg bg-white">
-              <div className="pb-[38px] mb-[38px] border-b bg-black/1">
-                <h5 className="font-semibold mb-2.5 flex items-center text-xl">
-                  <span className="text-[hsl(226,100%,33%)] text-sm mb-3.5 size-6 flex items-center rounded-full">
-                    {" "}
-                    <CheckCircle />{" "}
-                  </span>
-                  Zero recruitment costs
-                </h5>
-                <p className="text-base text-[hsl(0,0%,46%)] font-normal">
-                  Pre-vetted interpreters ready to work
-                </p>
-              </div>
-              <div className="pb-[38px] mb-[38px] border-b bg-black/1">
-                <h5 className="font-semibold mb-2.5 flex items-center text-xl">
-                  <span className="text-[hsl(226,100%,33%)] text-sm mb-3.5 size-6 flex items-center rounded-full">
-                    {" "}
-                    <CheckCircle />{" "}
-                  </span>
-                  No infrastructure needed
-                </h5>
-                <p className="text-base text-[hsl(0,0%,46%)] font-normal">
-                  Interpreters use their own equipment
-                </p>
-              </div>
-              <div className="pb-[38px] mb-[38px] border-b bg-black/1">
-                <h5 className="font-semibold mb-2.5 flex items-center text-xl">
-                  <span className="text-[hsl(226,100%,33%)] text-sm mb-3.5 size-6 flex items-center rounded-full">
-                    {" "}
-                    <CheckCircle />{" "}
-                  </span>
-                  Instant scalability
-                </h5>
-                <p className="text-base text-[hsl(0,0%,46%)] font-normal">
-                  From urgent one-off calls to major international events
-                </p>
-              </div>
-              <div className="pb-[38px] mb-[38px] border-b bg-black/1">
-                <h5 className="font-semibold mb-2.5 flex items-center text-xl">
-                  <span className="text-[hsl(226,100%,33%)] text-sm mb-3.5 size-6 flex items-center rounded-full">
-                    {" "}
-                    <CheckCircle />{" "}
-                  </span>
-                  24/7 coverage
-                </h5>
-                <p className="text-base text-[hsl(0,0%,46%)] font-normal">
-                  Round-the-clock availability across all time zones
-                </p>
-              </div>
-              <div className="pb-[38px] mb-[38px] border-b bg-black/1">
-                <h5 className="font-semibold mb-2.5 flex items-center text-xl">
-                  <span className="text-[hsl(226,100%,33%)] text-sm mb-3.5 size-6 flex items-center rounded-full">
-                    {" "}
-                    <CheckCircle />{" "}
-                  </span>
-                  Pay-as-you-go
-                </h5>
-                <p className="text-base text-[hsl(0,0%,46%)] font-normal">
-                  Only pay for active interpretation time
-                </p>
+        <div className="flex justify-center mx-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
+            <div className="pr-0 md:pr-12">
+              <div className="py-14 px-10 rounded-lg bg-white">
+                <div className="pb-[38px] mb-[38px] border-b bg-black/1">
+                  <h5 className="font-semibold mb-2.5 flex items-center text-xl gap-1.5">
+                    <span className="text-[hsl(226,100%,33%)] text-sm size-6 flex items-center rounded-full">
+                      {" "}
+                      <CheckCircle />{" "}
+                    </span>
+                    Zero recruitment costs
+                  </h5>
+                  <p className="text-base text-[hsl(0,0%,46%)] font-normal">
+                    Pre-vetted interpreters ready to work
+                  </p>
+                </div>
+                <div className="pb-[38px] mb-[38px] border-b bg-black/1">
+                  <h5 className="font-semibold mb-2.5 flex items-center text-xl gap-1.5">
+                    <span className="text-[hsl(226,100%,33%)] text-sm size-6 flex items-center rounded-full">
+                      {" "}
+                      <CheckCircle />{" "}
+                    </span>
+                    No infrastructure needed
+                  </h5>
+                  <p className="text-base text-[hsl(0,0%,46%)] font-normal">
+                    Interpreters use their own equipment
+                  </p>
+                </div>
+                <div className="pb-[38px] mb-[38px] border-b bg-black/1">
+                  <h5 className="font-semibold mb-2.5 flex items-center text-xl gap-1.5">
+                    <span className="text-[hsl(226,100%,33%)] text-sm size-6 flex items-center rounded-full">
+                      {" "}
+                      <CheckCircle />{" "}
+                    </span>
+                    Instant scalability
+                  </h5>
+                  <p className="text-base text-[hsl(0,0%,46%)] font-normal">
+                    From urgent one-off calls to major international events
+                  </p>
+                </div>
+                <div className="pb-[38px] mb-[38px] border-b bg-black/1">
+                  <h5 className="font-semibold mb-2.5 flex items-center text-xl gap-1.5">
+                    <span className="text-[hsl(226,100%,33%)] text-sm size-6 flex items-center rounded-full">
+                      {" "}
+                      <CheckCircle />{" "}
+                    </span>
+                    24/7 coverage
+                  </h5>
+                  <p className="text-base text-[hsl(0,0%,46%)] font-normal">
+                    Round-the-clock availability across all time zones
+                  </p>
+                </div>
+                <div className="pb-[38px] mb-[38px] border-b bg-black/1">
+                  <h5 className="font-semibold mb-2.5 flex items-center text-xl gap-1.5">
+                    <span className="text-[hsl(226,100%,33%)] text-sm size-6 flex items-center rounded-full">
+                      {" "}
+                      <CheckCircle />{" "}
+                    </span>
+                    Pay-as-you-go
+                  </h5>
+                  <p className="text-base text-[hsl(0,0%,46%)] font-normal">
+                    Only pay for active interpretation time
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="pl-0 md:pl-12">
-            <div>
-              <Image
-                src="/facility-image.webp"
-                width={510}
-                height={510}
-                alt=""
-              />
+            <div className="pl-0 md:pl-12">
+              <div>
+                <Image
+                  src="/facility-image.webp"
+                  width={510}
+                  height={510}
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
-       </div>
       </div>
     </div>
   );
