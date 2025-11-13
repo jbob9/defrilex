@@ -8,10 +8,10 @@ const Footer = () => {
     <footer className="mt-auto text-white bg-[hsl(0,0%,13%)]">
       <div className="container mx-auto px-3 w-full">
         <div
-          className="footer-area__top relative rounded-r-md rounded-l-md -mt-16 
+          className="footer-area__top relative rounded-lg -mt-16 
         bg-[hsl(226,100%,16.5%)]"
         >
-          <div className="flex relative justify-between py-10 px-[60px]">
+          <div className="flex flex-col md:flex-row relative justify-between py-10 px-[60px] gap-6 md:gap-0">
             <div>
               <h4 className="text-white mb-2.5 text-3xl" data-s-length="1">
                 I&apos;m looking for interpretation{" "}
@@ -44,7 +44,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-4 gap-y-10 gap-x-5 py-14">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-y-10 gap-x-5 py-14">
           <div>
             <h5 className="text-white mb-5 font-semibold">Navigation </h5>
             <ul className="flex flex-col">
@@ -193,6 +193,7 @@ const Footer = () => {
                     <svg
                       role="img"
                       viewBox="0 0 24 24"
+                      className="size-4 fill-white"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <title>Facebook</title>
@@ -210,7 +211,7 @@ const Footer = () => {
                     <svg
                       role="img"
                       viewBox="0 0 24 24"
-                      className="size-6"
+                      className="size-4 fill-white"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <title>X</title>
@@ -225,7 +226,7 @@ const Footer = () => {
                     title="Linkedin"
                     className="social-list__link flex-center"
                   >
-                    <LinkedinIcon className="size-6" />
+                    <LinkedinIcon className="size-4 fill-white" />
                   </a>{" "}
                 </li>
                 <li className="social-list__item">
@@ -238,7 +239,7 @@ const Footer = () => {
                     <svg
                       role="img"
                       viewBox="0 0 24 24"
-                      className="size-6"
+                      className="size-4 fill-white"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <title>Instagram</title>

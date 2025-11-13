@@ -18,9 +18,9 @@ const WhyChooseSection = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="pt-0 pl-0 pr-[30px] pb-[60px] border border-t-0 border-l-0 border-black/1 border-solid">
-            <span className="max-w-[45px]">
+        <div className="grid grid-cols-1 md:grid-cols-3">
+          <div className="pt-0 pl-0 pr-[30px] pb-[60px] border border-t-0 border-l-0 text-center md:text-start">
+            <span className="flex justify-center md:justify-start">
               <Image
                 height={45}
                 width={45}
@@ -29,9 +29,8 @@ const WhyChooseSection = () => {
                 alt=""
               />
             </span>
-            <div className="mb-5">
-              <h5 className="font-semibold mb-6">
-                {" "}
+            <div className="mt-5">
+              <h5 className="font-semibold mb-6 text-xl">
                 150,000+ Active Interpreters{" "}
               </h5>
               <p className="font-normal text-[hsl(0,0%,46%)]">
@@ -39,7 +38,7 @@ const WhyChooseSection = () => {
               </p>
             </div>
           </div>
-          <div className="pt-0 pl-0 pr-[30px] pb-[60px] border border-t-0 border-l-0 border-black/1 border-solid">
+          <div className="pt-0 pl-[60px] pr-[30px] pb-[60px] border border-t-0 border-l-0">
             <span className="max-w-[45px]">
               <Image
                 height={45}
@@ -49,8 +48,8 @@ const WhyChooseSection = () => {
                 alt=""
               />
             </span>
-            <div className="mb-5">
-              <h5 className="font-semibold mb-6"> No upfront costs </h5>
+            <div className="mt-5">
+              <h5 className="font-semibold mb-6 text-xl"> No upfront costs </h5>
               <p className="font-normal text-[hsl(0,0%,46%)]">
                 Start for free—post your project or search for jobs with no
                 subscriptions or hidden fees. You only pay when you hire the
@@ -58,7 +57,7 @@ const WhyChooseSection = () => {
               </p>
             </div>
           </div>
-          <div className="pt-0 pl-0 pr-[30px] pb-[60px] border border-t-0 border-l-0 border-black/1 border-solid">
+          <div className="pt-0 pl-[60px] pr-[30px] pb-[60px] border border-t-0 border-l-0">
             <span className="max-w-[45px]">
               <Image
                 height={45}
@@ -68,14 +67,14 @@ const WhyChooseSection = () => {
                 alt=""
               />
             </span>
-            <div className="mb-5">
-              <h5 className="font-semibold mb-6"> Ready-Now Workforce </h5>
+            <div className="mt-5">
+              <h5 className="font-semibold mb-6 text-xl"> Ready-Now Workforce </h5>
               <p className="font-normal text-[hsl(0,0%,46%)]">
                 No waiting, no recruiting—interpreters available 24/7
               </p>
             </div>
           </div>
-          <div className="pt-0 pl-0 pr-[30px] pb-[60px] border border-t-0 border-l-0 border-black/1 border-solid">
+          <div className="pt-0 pl-0 pr-[30px] pb-[60px] border border-t-0 border-l-0">
             <span className="max-w-[45px]">
               <Image
                 height={45}
@@ -85,15 +84,15 @@ const WhyChooseSection = () => {
                 alt=""
               />
             </span>
-            <div className="mb-5">
-              <h5 className="font-semibold mb-6"> Proven at Scale </h5>
+            <div className="mt-5">
+              <h5 className="font-semibold mb-6 text-xl"> Proven at Scale </h5>
               <p className="font-normal text-[hsl(0,0%,46%)]">
                 Trusted by Fortune 500 companies for mission-critical
                 communications
               </p>
             </div>
           </div>
-          <div className="pt-0 pl-0 pr-[30px] pb-[60px] border border-t-0 border-l-0 border-black/1 border-solid">
+          <div className="pt-0 pl-[60px] pr-[30px] pb-[60px] border border-t-0 border-l-0">
             <span className="max-w-[45px]">
               <Image
                 height={45}
@@ -103,8 +102,8 @@ const WhyChooseSection = () => {
                 alt=""
               />
             </span>
-            <div className="mb-5">
-              <h5 className="font-semibold mb-6">
+            <div className="mt-5">
+              <h5 className="font-semibold mb-6 text-xl">
                 {" "}
                 Instant Matching Technology{" "}
               </h5>
@@ -113,7 +112,7 @@ const WhyChooseSection = () => {
               </p>
             </div>
           </div>
-          <div className="pt-0 pl-0 pr-[30px] pb-[60px] border border-t-0 border-l-0 border-black/1 border-solid">
+          <div className="pt-0 pl-[60px] pr-[30px] pb-[60px] border border-t-0 border-l-0">
             <span className="max-w-[45px]">
               <Image
                 height={45}
@@ -123,8 +122,8 @@ const WhyChooseSection = () => {
                 alt=""
               />
             </span>
-            <div className="mb-5">
-              <h5 className="font-semibold mb-6"> Intelligent Compliance </h5>
+            <div className="mt-5">
+              <h5 className="font-semibold mb-6 text-xl"> Intelligent Compliance </h5>
               <p className="font-normal text-[hsl(0,0%,46%)]">
                 Our platform provides secure, AI-powered hiring for regulated
                 industries like healthcare and legal, automatically ensuring

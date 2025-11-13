@@ -8,7 +8,7 @@ const FacilitySection = () => {
         <div className="flex justify-center">
           <div className="col-lg-10">
             <div className="text-center mb-14">
-              <h2 className="text-[hsl(0,0%,13%)] font-semibold mb-3.5">
+              <h2 className="text-[hsl(0,0%,13%)] font-semibold mb-3.5 text-[2.8rem]">
                 The <span className="text-highlight">Smarter</span> Way to
                 Source Interpretation Services
               </h2>
@@ -19,13 +19,13 @@ const FacilitySection = () => {
             </div>
           </div>
         </div>
-       <div className="flex justify-center">
+       <div className="flex justify-center mx-3">
          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
-          <div className="pr-12">
+          <div className="pr-0 md:pr-12">
             <div className="py-14 px-10 rounded-lg bg-white">
               <div className="pb-[38px] mb-[38px] border-b bg-black/1">
                 <h5 className="font-semibold mb-2.5 flex items-center text-xl">
-                  <span className="text-[hsl(226,100%,33%)] text-sm mb-3.5 size-6 flex items-center rounded-full border border-[hsl(226,100%,33%)]">
+                  <span className="text-[hsl(226,100%,33%)] text-sm mb-3.5 size-6 flex items-center rounded-full">
                     {" "}
                     <CheckCircle />{" "}
                   </span>
@@ -37,7 +37,7 @@ const FacilitySection = () => {
               </div>
               <div className="pb-[38px] mb-[38px] border-b bg-black/1">
                 <h5 className="font-semibold mb-2.5 flex items-center text-xl">
-                  <span className="text-[hsl(226,100%,33%)] text-sm mb-3.5 size-6 flex items-center rounded-full border border-[hsl(226,100%,33%)]">
+                  <span className="text-[hsl(226,100%,33%)] text-sm mb-3.5 size-6 flex items-center rounded-full">
                     {" "}
                     <CheckCircle />{" "}
                   </span>
@@ -49,7 +49,7 @@ const FacilitySection = () => {
               </div>
               <div className="pb-[38px] mb-[38px] border-b bg-black/1">
                 <h5 className="font-semibold mb-2.5 flex items-center text-xl">
-                  <span className="text-[hsl(226,100%,33%)] text-sm mb-3.5 size-6 flex items-center rounded-full border border-[hsl(226,100%,33%)]">
+                  <span className="text-[hsl(226,100%,33%)] text-sm mb-3.5 size-6 flex items-center rounded-full">
                     {" "}
                     <CheckCircle />{" "}
                   </span>
@@ -61,7 +61,7 @@ const FacilitySection = () => {
               </div>
               <div className="pb-[38px] mb-[38px] border-b bg-black/1">
                 <h5 className="font-semibold mb-2.5 flex items-center text-xl">
-                  <span className="text-[hsl(226,100%,33%)] text-sm mb-3.5 size-6 flex items-center rounded-full border border-[hsl(226,100%,33%)]">
+                  <span className="text-[hsl(226,100%,33%)] text-sm mb-3.5 size-6 flex items-center rounded-full">
                     {" "}
                     <CheckCircle />{" "}
                   </span>
@@ -73,7 +73,7 @@ const FacilitySection = () => {
               </div>
               <div className="pb-[38px] mb-[38px] border-b bg-black/1">
                 <h5 className="font-semibold mb-2.5 flex items-center text-xl">
-                  <span className="text-[hsl(226,100%,33%)] text-sm mb-3.5 size-6 flex items-center rounded-full border border-[hsl(226,100%,33%)]">
+                  <span className="text-[hsl(226,100%,33%)] text-sm mb-3.5 size-6 flex items-center rounded-full">
                     {" "}
                     <CheckCircle />{" "}
                   </span>
@@ -85,7 +85,7 @@ const FacilitySection = () => {
               </div>
             </div>
           </div>
-          <div className="pl-12">
+          <div className="pl-0 md:pl-12">
             <div>
               <Image
                 src="/facility-image.webp"
