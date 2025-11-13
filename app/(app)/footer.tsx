@@ -150,8 +150,8 @@ const Footer = () => {
           </div>
           <div>
             <h5 className="text-white mb-5 font-semibold"> Contact Us</h5>
-            <ul className="footer-contact-menu">
-              <li className="footer-contact-menu__item">
+            <ul className="flex flex-col gap-2">
+              <li className="flex items-center gap-2">
                 <div className="text-[hsl(226,100%,33%)]">
                   <MapPin className="size-5" />
                 </div>
@@ -159,7 +159,7 @@ const Footer = () => {
                   <p> 12000 Biscayne Blvd Suite 205, Miami, FL 33181</p>
                 </div>
               </li>
-              <li className="footer-contact-menu__item">
+              <li className="flex items-center gap-2">
                 <div className="text-[hsl(226,100%,33%)]">
                   <PhoneIcon className="size-5" />
                 </div>
@@ -169,7 +169,7 @@ const Footer = () => {
                   </a>
                 </div>
               </li>
-              <li className="footer-contact-menu__item">
+              <li className="flex items-center gap-2">
                 <div className="text-[hsl(226,100%,33%)]">
                   <SendIcon className="size-5" />
                 </div>

@@ -19,6 +19,12 @@ export function AuthForm({
 }) {
   return (
     <div className="flex flex-col gap-4">
+      <div className="flex flex-col items-center gap-1 text-center">
+        <p className="text-muted-foreground text-sm text-balance">
+          {action === "login" ? "Welcome back" : "Welcome to Defrilex"}
+        </p>
+        <h1 className="text-2xl font-bold capitalize">{action} account</h1>
+      </div>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
         <Button variant="outline" type="button">
           <svg
@@ -48,16 +54,11 @@ export function AuthForm({
           type="button"
           className="col-span-full md:col-span-1"
         >
-          <LinkedinIcon className="fill-blue-500" />
+          <LinkedinIcon className="text-blue-500 fill-blue-500" />
           Linkedin
         </Button>
       </div>
-      <div className="flex flex-col items-center gap-1 text-center">
-        <p className="text-muted-foreground text-sm text-balance">
-          {action === "login" ? "Welcome back" : "Welcome to Defrilex"}
-        </p>
-        <h1 className="text-2xl font-bold capitalize">{action} account</h1>
-      </div>
+      
       <FieldSeparator>Or continue with</FieldSeparator>
       <form className={cn("flex flex-col gap-6", className)} {...props}>
         <FieldGroup>

@@ -11,7 +11,7 @@ const AccountSection = () => {
           <div className="col-xl-6">
             <div className="bg-[hsl(0,0%,13%)] py-[45px] px-[60px] md:py-[30px] md:px-10 w-full relative rounded-lg flex items-end">
               <div className="max-w-[270px]">
-                <h1 className="font-semibold text-white leading-snug text-4xl">
+                <h1 className="font-semibold text-white leading-snug text-2xl md:text-4xl">
                   I&apos;m looking for interpretation{" "}
                   <span className="text-highlight">work</span>
                 </h1>
@@ -27,7 +27,7 @@ const AccountSection = () => {
                   </Link>
                 </div>
               </div>
-              <div className="hidden sm:bloc">
+              <div className="hidden sm:block">
                 <Image width={295} height={208} src="/account-1.webp" alt="" />
               </div>
             </div>
@@ -35,7 +35,7 @@ const AccountSection = () => {
           <div className="col-xl-6">
             <div className="bg-[hsl(226,100%,16.5%)] py-[45px] px-[60px] md:py-[30px] md:px-10 w-full relative rounded-lg flex items-end">
               <div className="max-w-[270px]">
-                <h3 className="font-semibold text-white leading-snug text-4xl">
+                <h3 className="font-semibold text-white leading-snug text-2xl md:text-4xl">
                   I need interpreters for my{" "}
                   <span className="text-highlight">project</span>
                 </h3>
