@@ -1,23 +1,28 @@
+import { PhoneIcon, SendHorizonal } from "lucide-react";
+import Image from "next/image";
+
 const SupportSection = () => {
   return (
-    <div className="support-section my-120">
-      {/* <div className="container">
-        <div className="support-wrapper">
-          <div className="support-wrapper__left">
-            <h6 className="title">Trusted by 100,000+ Business</h6>
-            <div className="company-list">
-              <div className="company-name">
-                <div className="thumb">
+    <div className="my-20 md:my-32">
+      <div className="container mx-auto px-3">
+        <div className="flex items-center relative gap-20">
+          <div className="w-1/2">
+            <h6 className="mb-4 font-semibold text-lg leading-tight text-[hsl(0,0%,13%)]">
+              Trusted by 100,000+ Business
+            </h6>
+            <div className="flex justify-center flex-wrap overflow-hidden border rounded-lg">
+              <div className="text-center overflow-hidden -mt-0.5 w-[33.33333%]">
+                <div className="py-[30px] px-2.5 border -mt-px -ml-px">
                   <Image width={130} height={30} src="/shoplist.webp" alt="" />
                 </div>
               </div>
-              <div className="company-name">
-                <div className="thumb">
+              <div className="text-center overflow-hidden -mt-0.5 w-[33.33333%]">
+                <div className="py-[30px] px-2.5 border -mt-px -ml-px">
                   <Image width={130} height={30} src="/unisaico.webp" alt="" />
                 </div>
               </div>
-              <div className="company-name">
-                <div className="thumb">
+              <div className="text-center overflow-hidden -mt-0.5 w-[33.33333%]">
+                <div className="py-[30px] px-2.5 border -mt-px -ml-px">
                   <Image
                     width={130}
                     height={30}
@@ -26,75 +31,77 @@ const SupportSection = () => {
                   />
                 </div>
               </div>
-              <div className="company-name">
-                <div className="thumb">
+              <div className="text-center overflow-hidden -mt-0.5 w-[33.33333%]">
+                <div className="py-[30px] px-2.5 border -mt-px -ml-px">
                   <Image width={130} height={30} src="/wexeat.webp" alt="" />
                 </div>
               </div>
-              <div className="company-name">
-                <div className="thumb">
+              <div className="text-center overflow-hidden -mt-0.5 w-[33.33333%]">
+                <div className="py-[30px] px-2.5 border -mt-px -ml-px">
                   <Image width={130} height={30} src="/braincell.webp" alt="" />
                 </div>
               </div>
-              <div className="company-name">
-                <div className="thumb">
+              <div className="text-center overflow-hidden -mt-0.5 w-[33.33333%]">
+                <div className="py-[30px] px-2.5 border -mt-px -ml-px">
                   <Image width={130} height={30} src="/ecomarket.webp" alt="" />
                 </div>
               </div>
-              <div className="company-name">
-                <div className="thumb">
+              <div className="text-center overflow-hidden -mt-0.5 w-[33.33333%]">
+                <div className="py-[30px] px-2.5 border -mt-px -ml-px">
                   <Image width={130} height={30} src="/analitycs.webp" alt="" />
                 </div>
               </div>
-              <div className="company-name">
-                <div className="thumb">
+              <div className="text-center overflow-hidden -mt-0.5 w-[33.33333%]">
+                <div className="py-[30px] px-2.5 border -mt-px -ml-px">
                   <Image width={130} height={30} src="/growmeup.webp" alt="" />
                 </div>
               </div>
-              <div className="company-name">
-                <div className="thumb">
+              <div className="text-center overflow-hidden -mt-0.5 w-[33.33333%]">
+                <div className="py-[30px] px-2.5 border -mt-px -ml-px">
                   <img src="/mkt-group.webp" alt="" />
                 </div>
               </div>
             </div>
           </div>
           <div className="support-wrapper__right">
-            <div className="support-content">
-              <h4 className="support-content__title">24/7 customer support</h4>
-              <p className="support-item">
-                <span className="support-item__icon">
-                  {" "}
-                  <i className="las fa-phone"></i>{" "}
+            <div className="max-w-[300px]">
+              <h4 className="text-white font-semibold text-3xl">
+                24/7 customer support
+              </h4>
+              <p className="font-semibold text-white flex items-center mb-3 gap-2 text-base">
+                <span className="size-6 flex justify-center items-center text-sm rounded-full text-white bg-[hsl(226,100%,33%)]">
+                  <PhoneIcon />
                 </span>
                 Hot Line: +1(888) 982-0561
               </p>
-              <p className="support-item">
-                <span className="support-item__icon">
-                  {" "}
-                  <i className="las la-paper-plane"></i>{" "}
+              <p className="font-semibold text-white flex items-center mb-3 gap-2 text-base">
+                <span className="size-6 flex justify-center items-center text-sm rounded-full text-white bg-[hsl(226,100%,33%)]">
+                  <SendHorizonal />
                 </span>
                 Email: support@defrilex.com
               </p>
             </div>
-            <div className="support-wrapper__shape">
+            <div className="absolute top-0 bottom-0 -z-1">
               <Image
                 width={520}
                 height={300}
                 src="/support-shape.webp"
+                className="h-auto max-w-full"
                 alt=""
               />
             </div>
-            <div className="support-wrapper__thumb">
+            <div className="absolute top-0 bottom-0 -z-1 max-w-[320px] md:max-w-[45%]">
               <Image
                 width={234}
                 height={229}
                 src="/support-thumb.webp"
+                className="h-auto max-w-full"
                 alt=""
               />
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

@@ -1,4 +1,14 @@
 import CustomBreadcrumb from "@/components/custom-breadcrumb";
+import { Button } from "@/components/ui/button";
+import {
+  FacebookIcon,
+  HouseIcon,
+  InstagramIcon,
+  LinkedinIcon,
+  PhoneCallIcon,
+  Send,
+  TwitterIcon,
+} from "lucide-react";
 import SupportSection from "./support-section";
 
 const Contact = () => {
@@ -15,50 +25,61 @@ const Contact = () => {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 justify-between items-center flex-wrap-reverse">
             <div className="col-span-full md:col-span-4">
-              <div className="relative p-[100px,30px,50px,30px] md:p-[55px,30px]">
-                <h5 className="contact-item-wrapper__title">Contact with Us</h5>
+              <div className="relative pt-[100px] px-[30px] pb-[50px] md:py-[55px] md:px-[30px] contact-item-wrapper">
+                <h5 className="font-bold leading-tight text-xl text-[hsl(0,0%,13%)]">
+                  Contact with Us
+                </h5>
                 <div>
-                  <div className="contact-item">
-                    <span className="contact-item__icon">
-                      <i className="fa-solid fa-house-user"></i>
+                  <div className="flex items-start mb-3.5 gap-3.5">
+                    <span className="size-11 rounded-full shrink-0 flex justify-center items-center text-[hsl(226,100%,33%)] bg-[hsl(226,100%,33%/0.15)]">
+                      <HouseIcon />
                     </span>
-                    <div className="contact-item__content">
-                      <p className="contact-item__title"> Office Address </p>
-                      <p className="contact-item__desc">
+                    <div className="w-[calc(100%-45px)]">
+                      <p className="text-[hsl(0,0%,46%)] text-base font-normal m-0">
+                        {" "}
+                        Office Address{" "}
+                      </p>
+                      <p className="\text-[hsl(0,0%,46%)] text-base font-normal m-0">
                         12000 Biscayne Blvd Suite 205, Miami, FL 33181
                       </p>
                     </div>
                   </div>
-                  <div className="contact-item">
-                    <span className="contact-item__icon">
-                      <i className="fa-solid fa-paper-plane"></i>
+                  <div className="flex items-start mb-3.5 gap-3.5">
+                    <span className="size-11 rounded-full shrink-0 flex justify-center items-center text-[hsl(226,100%,33%)] bg-[hsl(226,100%,33%/0.15)]">
+                      <Send />
                     </span>
-                    <div className="contact-item__content">
-                      <p className="contact-item__title"> Email Address </p>
-                      <p className="contact-item__desc">
+                    <div className="w-[calc(100%-45px)]">
+                      <p className="text-[hsl(0,0%,46%)] text-base font-normal m-0">
+                        {" "}
+                        Email Address{" "}
+                      </p>
+                      <p className="text-[hsl(0,0%,46%)] text-base font-normal m-0">
                         <a
                           href="mailto:contact@defrilex.com"
                           title="E-mail us"
-                          className="link"
+                          className="text-[hsl(226,100%,33%)]"
                         >
                           contact@defrilex.com
                         </a>
                       </p>
                     </div>
                   </div>
-                  <div className="contact-item">
-                    <span className="contact-item__icon">
-                      <i className="fa-solid fa-phone-volume"></i>
+                  <div className="flex items-start mb-3.5 gap-3.5">
+                    <span className="size-11 rounded-full shrink-0 flex justify-center items-center text-[hsl(226,100%,33%)] bg-[hsl(226,100%,33%/0.15)]">
+                      <PhoneCallIcon />
                     </span>
-                    <div className="contact-item__content">
-                      <p className="contact-item__title"> Phone Number </p>
-                      <p className="contact-item__desc">
+                    <div className="w-[calc(100%-45px)]">
+                      <p className="text-[hsl(0,0%,46%)] text-base font-normal m-0">
+                        {" "}
+                        Phone Number{" "}
+                      </p>
+                      <p className="text-[hsl(0,0%,46%)] text-base font-normal m-0">
                         <a
-                          href="tel:+1(888) 982-0561‬"
+                          href="tel:+1(888) 982-0561"
                           title="Call Us"
-                          className="link"
+                          className="text-[hsl(226,100%,33%)]"
                         >
-                          +1(888) 982-0561‬
+                          +1(888) 982-0561
                         </a>
                       </p>
                     </div>
@@ -73,9 +94,9 @@ const Contact = () => {
                           href="https://www.facebook.com/"
                           target="_blank"
                           title="Facebook"
-                          className="social-list__link flex-center"
+                          className="flex items-center justify-center cursor-pointer rounded-md text-sm size-9 border border-blue-900 text-[hsl(226,100%,33%)]"
                         >
-                          <i className="fab fa-facebook-f"></i>
+                          <FacebookIcon />
                         </a>{" "}
                       </li>
                       <li className="social-list__item">
@@ -83,9 +104,9 @@ const Contact = () => {
                           href="https://www.twitter.com/"
                           target="_blank"
                           title="X"
-                          className="social-list__link flex-center"
+                          className="flex items-center justify-center cursor-pointer rounded-md text-sm size-9 border border-blue-900 text-[hsl(226,100%,33%)]"
                         >
-                          <i className="fa-brands fa-x-twitter"></i>
+                          <TwitterIcon className="" />
                         </a>{" "}
                       </li>
                       <li className="social-list__item">
@@ -93,9 +114,9 @@ const Contact = () => {
                           href="https://www.linkedin.com/"
                           target="_blank"
                           title="Linkedin"
-                          className="social-list__link flex-center"
+                          className="flex items-center justify-center cursor-pointer rounded-md text-sm size-9 border border-blue-900 text-[hsl(226,100%,33%)]"
                         >
-                          <i className="fab fa-linkedin-in"></i>
+                          <LinkedinIcon />
                         </a>{" "}
                       </li>
                       <li className="social-list__item">
@@ -103,10 +124,10 @@ const Contact = () => {
                           href="https://www.instagram.com/"
                           target="_blank"
                           title="Instagram"
-                          className="social-list__link flex-center"
+                          className="flex items-center justify-center cursor-pointer rounded-md text-sm size-9 border border-blue-900 text-[hsl(226,100%,33%)]"
                         >
-                          <i className="fab fa-instagram"></i>
-                        </a>{" "}
+                          <InstagramIcon />
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -114,73 +135,69 @@ const Contact = () => {
               </div>
             </div>
             <div className="col-span-full md:col-span-7">
-              <div className="contact-form-wrapper">
-                <h4 className="contact-form-wrapper__title">
+              <div className="rounded-lg p-7 bg-white">
+                <h4 className="mb-4 text-center text-3xl">
                   Let`s Talk with US
                 </h4>
-                <p className="contact-form-wrapper__desc">
+                <p className="text-center mb-5 text-base font-normal text-[hsl(0,0%,46%)]">
                   Disregard the old standards. You can have the best
                   individuals. At this moment. Here.
                 </p>
-                <form method="post" className="verify-gcaptcha verify-form">
-                  <input
-                    type="hidden"
-                    name="_token"
-                    value="WeW4tyDQfLNLMaDXssjYlu2Y4aAwdPf1T4DBAMua"
-                    autoComplete="off"
-                  />{" "}
-                  <div className="row">
-                    <div className="col-sm-6 form-group">
-                      <label className="form--label required" htmlFor="name">
-                        Name
-                      </label>
-                      <input
-                        name="name"
-                        type="text"
-                        className="form-control form--control"
-                        value=""
-                        required
-                        id="name"
-                      />
+                <form method="post" className="pr-2.5">
+                  <div className="flex flex-col gap-4">
+                    <div className="grid grid-cols-2 gap-4">
+                      <div>
+                        <label className="font-semibold mb-2 text-sm text-[hsl(0,0%,13%)] required" htmlFor="name">
+                          Name
+                        </label>
+                        <input
+                          name="name"
+                          type="text"
+                          className="rounded-md w-full outline-none bg-white text-black border border-black font-normal leading-tight text-base block py-[11px] px-4"
+                          value=""
+                          required
+                          id="name"
+                        />
+                      </div>
+                      <div>
+                        <label className="font-semibold mb-2 text-sm text-[hsl(0,0%,13%)] required">Email</label>
+                        <input
+                          name="email"
+                          type="email"
+                          className="rounded-md w-full outline-none bg-white text-black border border-black font-normal leading-tight text-base block py-[11px] px-4"
+                          value=""
+                          required
+                        />
+                      </div>
                     </div>
-                    <div className="col-sm-6 form-group">
-                      <label className="form--label required">Email</label>
-                      <input
-                        name="email"
-                        type="email"
-                        className="form-control form--control"
-                        value=""
-                        required
-                      />
-                    </div>
-                    <div className="col-sm-12 form-group">
-                      <label className="form--label required" htmlFor="subject">
+                    <div>
+                      <label className="font-semibold mb-2 text-sm text-[hsl(0,0%,13%)] required" htmlFor="subject">
                         Subject
                       </label>
                       <input
                         name="subject"
                         type="text"
-                        className="form-control form--control"
+                        className="rounded-md w-full outline-none bg-white text-black border border-black font-normal leading-tight text-base block py-[11px] px-4"
                         value=""
                         required
                         id="subject"
                       />
                     </div>
-                    <div className="col-sm-12 form-group">
-                      <label className="form--label required" htmlFor="message">
+                    <div>
+                      <label className="font-semibold mb-2 text-sm text-[hsl(0,0%,13%)] required" htmlFor="message">
                         Message
                       </label>
                       <textarea
                         name="message"
-                        className="form-control form--control"
+                        className="rounded-md w-full outline-none bg-white text-black border border-black font-normal leading-tight text-base block py-[11px] px-4"
                         required
                         id="message"
                       ></textarea>
                     </div>
-                    <div className="form-group">
-                      <button type="submit" className="btn btn--base w-100">
+                    <div>
+                      <Button type="submit" className="w-full">
                         Send Message
-                      </button>
+                      </Button>
                     </div>
                   </div>
                 </form>
