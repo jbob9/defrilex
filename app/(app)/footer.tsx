@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="mt-auto text-white bg-[hsl(0,0%,13%)]">
       <div className="container mx-auto px-3 w-full">
         <div
-          className="footer-area__top relative rounded-[0px,0px,12px,12px] -mt-16 
+          className="footer-area__top relative rounded-r-md rounded-l-md -mt-16 
         bg-[hsl(226,100%,16.5%)]"
         >
           <div className="flex relative justify-between py-10 px-[60px]">
@@ -180,9 +180,9 @@ const Footer = () => {
                 </div>
               </li>
             </ul>
-            <div className="social-list-wrapper">
+            <div>
               <p className="title">Follow Us </p>
-              <ul className="social-list">
+              <ul className="flex items-center gap-2 py-3">
                 <li className="social-list__item">
                   <a
                     href="https://www.facebook.com/"

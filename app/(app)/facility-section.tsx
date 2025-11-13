@@ -19,7 +19,8 @@ const FacilitySection = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
+       <div className="flex justify-center">
+         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
           <div className="pr-12">
             <div className="py-14 px-10 rounded-lg bg-white">
               <div className="pb-[38px] mb-[38px] border-b bg-black/1">
@@ -95,6 +96,7 @@ const FacilitySection = () => {
             </div>
           </div>
         </div>
+       </div>
       </div>
     </div>
   );

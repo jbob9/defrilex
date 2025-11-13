@@ -7,7 +7,7 @@ const WhyChooseSection = () => {
         <div className="flex flex-wrap justify-center">
           <div className="max-w-full px-3">
             <div className="text-center relative z-1 mb-14">
-              <h2 className="font-semibold text-[hsl(0,0%,13%)] mb-3.5 text-4xl">
+              <h2 className="font-semibold text-[hsl(0,0%,13%)] mb-3.5 text-[2.8rem]">
                 The <span className="text-highlight">Defrilex</span>{" "}
                 <span className="text-highlight">Advantage</span>
               </h2>
@@ -19,7 +19,7 @@ const WhyChooseSection = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="p-[0px,30px,60px,0px] border border-t-0 border-l-0 border-black/1">
+          <div className="pt-0 pl-0 pr-[30px] pb-[60px] border border-t-0 border-l-0 border-black/1 border-solid">
             <span className="max-w-[45px]">
               <Image
                 height={45}
@@ -39,7 +39,7 @@ const WhyChooseSection = () => {
               </p>
             </div>
           </div>
-          <div className="p-[0px,30px,60px,0px] border border-t-0 border-l-0 border-black/1">
+          <div className="pt-0 pl-0 pr-[30px] pb-[60px] border border-t-0 border-l-0 border-black/1 border-solid">
             <span className="max-w-[45px]">
               <Image
                 height={45}
@@ -58,7 +58,7 @@ const WhyChooseSection = () => {
               </p>
             </div>
           </div>
-          <div className="p-[0px,30px,60px,0px] border border-t-0 border-l-0 border-black/1">
+          <div className="pt-0 pl-0 pr-[30px] pb-[60px] border border-t-0 border-l-0 border-black/1 border-solid">
             <span className="max-w-[45px]">
               <Image
                 height={45}
@@ -75,7 +75,7 @@ const WhyChooseSection = () => {
               </p>
             </div>
           </div>
-          <div className="p-[0px,30px,60px,0px] border border-t-0 border-l-0 border-black/1">
+          <div className="pt-0 pl-0 pr-[30px] pb-[60px] border border-t-0 border-l-0 border-black/1 border-solid">
             <span className="max-w-[45px]">
               <Image
                 height={45}
@@ -93,7 +93,7 @@ const WhyChooseSection = () => {
               </p>
             </div>
           </div>
-          <div className="p-[0px,30px,60px,0px] border border-t-0 border-l-0 border-black/1">
+          <div className="pt-0 pl-0 pr-[30px] pb-[60px] border border-t-0 border-l-0 border-black/1 border-solid">
             <span className="max-w-[45px]">
               <Image
                 height={45}
@@ -113,7 +113,7 @@ const WhyChooseSection = () => {
               </p>
             </div>
           </div>
-          <div className="p-[0px,30px,60px,0px] border border-t-0 border-l-0 border-black/1">
+          <div className="pt-0 pl-0 pr-[30px] pb-[60px] border border-t-0 border-l-0 border-black/1 border-solid">
             <span className="max-w-[45px]">
               <Image
                 height={45}
