@@ -301,13 +301,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1399px) {
-  .contact-item-wrapper::before {
-    height: 97%;
-    right: -12px;
-  }
-}
-.contact-item-wrapper::before {
+/* .contact-item-wrapper::before {
   background-image: url("/contact-1.webp");
   background-size: cover;
   background-repeat: no-repeat;
@@ -323,10 +317,12 @@
 }
 
 @media screen and (max-width: 1399px) {
-  .contact-item-wrapper::after {
+  .contact-item-wrapper::before {
     height: 97%;
+    right: -12px;
   }
-}
+} */
+
 .contact-item-wrapper::after {
   background-image: url("/contact-1.webp");
   background-size: cover;
@@ -339,6 +335,12 @@
   position: absolute;
   height: 100%;
   width: 100%;
+}
+
+@media screen and (max-width: 1399px) {
+  .contact-item-wrapper::after {
+    height: 97%;
+  }
 }
 
 label.required:after {

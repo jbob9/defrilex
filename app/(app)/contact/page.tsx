@@ -22,10 +22,10 @@ const Contact = () => {
         ]}
       />
       <div className="py-20 md:py-28">
-        <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-11 justify-between items-center flex-wrap-reverse">
-            <div className="col-span-full md:col-span-4">
-              <div className="relative pt-[100px] px-[30px] pb-[50px] md:py-[55px] md:px-[30px] contact-item-wrapper">
+        <div className="container mx-auto max-w-6xl">
+          <div className="grid grid-cols-1 md:grid-cols-11 justify-between items-center flex-wrap-reverse gap-6">
+            <div className="col-span-full md:col-span-4 order-last md:order-first">
+              <div className="relative pt-[100px] px-[30px] pb-[50px] md:py-[55px] md:px-[30px] contact-item-wrapper max-w-[316px]">
                 <h5 className="font-bold leading-tight text-xl text-[hsl(0,0%,13%)] mb-4">
                   Contact with Us
                 </h5>
@@ -45,7 +45,7 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className="flex items-start mb-3.5 gap-3.5">
-                    <span className="size-11 rounded-full shrink-0 flex justify-center items-center text-[hsl(226,100%,33%)] bg-[hsl(226,100%,33%/0.15)]">
+                    <span className="size-11 rounded-full shrink-0 flex justify-center items-center text-[hsl(226,100%,33%)] bg-[hsl(226,100%,33%)]/15">
                       <Send />
                     </span>
                     <div className="w-[calc(100%-45px)]">
@@ -65,7 +65,7 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className="flex items-start mb-3.5 gap-3.5">
-                    <span className="size-11 rounded-full shrink-0 flex justify-center items-center text-[hsl(226,100%,33%)] bg-[hsl(226,100%,33%/0.15)]">
+                    <span className="size-11 rounded-full shrink-0 flex justify-center items-center text-[hsl(226,100%,33%)] bg-[hsl(226,100%,33%)]/15">
                       <PhoneCallIcon />
                     </span>
                     <div className="w-[calc(100%-45px)]">
@@ -88,7 +88,7 @@ const Contact = () => {
                 <div className="contact-item-wrapper__bottom">
                   <div className="social-list-wrapper">
                     <p className="title"> Follow Us </p>
-                    <ul className="flex items-center gap-2.5">
+                    <ul className="flex items-center gap-2.5 mt-2">
                       <li className="social-list__item">
                         <a
                           href="https://www.facebook.com/"
@@ -134,7 +134,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="col-span-full md:col-span-7">
+            <div className="col-span-full md:col-span-7 order-first md:order-last">
               <div className="rounded-lg p-7 bg-white">
                 <h4 className="mb-4 text-center text-3xl">
                   Let`s Talk with US
