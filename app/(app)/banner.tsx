@@ -53,12 +53,15 @@ const Banner = () => {
                 <input
                   type="search"
                   name="search"
-                  className="w-full outline-none bg-white text-black py-[13px] px-4 leading-snug font-normal rounded-md md:rounded-l-md"
+                  className="w-full outline-none bg-white text-black py-[13px] px-4 leading-snug font-normal rounded-md md:rounded-none"
                   placeholder="Type job keyword"
                 />
                 <Select defaultValue="job">
-                  <SelectTrigger defaultValue={'job'} className="w-full md:w-24 rounded-md md:rounded-none data-[size=default]:h-12 bg-white">
-                    <SelectValue defaultValue={'job'} />
+                  <SelectTrigger
+                    defaultValue={"job"}
+                    className="w-full md:w-24 rounded-md md:rounded-none data-[size=default]:h-12 bg-white"
+                  >
+                    <SelectValue defaultValue={"job"} />
                   </SelectTrigger>
                   <SelectContent>
                     <SelectGroup>

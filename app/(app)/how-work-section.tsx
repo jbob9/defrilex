@@ -14,7 +14,7 @@ const HowWorkSection = () => {
         <div className="flex flex-wrap justify-center mt-0 -mx-3">
           <div className="grow-0 shrink-0 w-[83.3333%] max-w-full mt-0 px-3">
             <div className="text-center mb-14 relative ">
-              <h2 className="font-semibold text-[hsl(0,0%,13%)] mb-3.5 text-4xl">
+              <h2 className="font-semibold text-[hsl(0,0%,13%)] mb-4 text-2xl md:text-[2.8rem]">
                 Leading brands trust our on-demand{" "}
                 <span className="text-highlight">interpreter</span>{" "}
                 <span className="text-highlight">marketplace.</span>

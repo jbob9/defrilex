@@ -6,7 +6,7 @@ import Link from "next/link";
 const AccountSection = () => {
   return (
     <div className="my-14 md:my-28">
-      <div className="mx-4 md:mx-auto">
+      <div className="mx-4 md:mx-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <div className="bg-[hsl(0,0%,13%)] py-6 px-5 md:py-10 md:px-10 w-full relative rounded-lg flex items-end">
@@ -34,12 +34,12 @@ const AccountSection = () => {
           </div>
           <div>
             <div className="bg-[hsl(226,100%,16.5%)] py-6 px-5 md:py-10 md:px-10 w-full relative rounded-lg flex items-end">
-              <div className="max-w-[270px]">
+              <div className="max-w-full md:max-w-[270px]">
                 <h3 className="font-semibold text-white leading-snug text-2xl md:text-4xl">
                   I need interpreters for my{" "}
                   <span className="text-highlight">project</span>
                 </h3>
-                <p className="font-semibold max-w-[235px] text-white text-sm md:text-base mt-2 md:mt-0">
+                <p className="font-semibold max-w-full md:max-w-[235px] text-white text-sm md:text-base mt-2 md:mt-0">
                   {" "}
                   Access verified interpretation talent on-demand. Post your
                   requirements, hire skilled interpreters instantly, and manage
