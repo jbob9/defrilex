@@ -23,7 +23,7 @@ const Navbar = () => {
           <Link className="mr-0 md:mr-16" href="/">
             <Image
               src="/logo.webp"
-              className="w-36 h-8 md:h-11"
+              className="w-36 h-8"
               alt=""
               width={168}
               height={45}

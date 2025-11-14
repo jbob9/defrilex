@@ -15,7 +15,7 @@ const AboutSection = () => {
               <div className="flex gap-6 mb-6 pb-6 border-b">
                 <span className="size-6">
                   <Image
-                    src="/talent-icone-1.webp"
+                    src="/talent-icon-1.webp"
                     width={25}
                     height={25}
                     alt=""
@@ -35,13 +35,15 @@ const AboutSection = () => {
                 <span className="size-6">
                   <Image
                     src="/talent-icon-2.webp"
-                     width={25}
+                    width={25}
                     height={25}
                     alt=""
                   />
                 </span>
                 <div className="w-[calc(100%-25px)]">
-                  <h5 className="font-semibold mb-4 text-lg md:text-xl">Schedule &amp; Manage</h5>
+                  <h5 className="font-semibold mb-4 text-lg md:text-xl">
+                    Schedule &amp; Manage
+                  </h5>
                   <p className="text-base text-[hsl(0,0%,46%)] font-normal">
                     Book interpreters instantly or schedule in advance with our
                     automated system
@@ -92,16 +94,16 @@ const AboutSection = () => {
             <div className="text-center relative my-8">
               <div className="absolute top-0 right-0">
                 <Image
-                width={155}
-                height={155}
+                  width={155}
+                  height={155}
                   src="/talent-shape-3.webp"
                   alt=""
                 />
               </div>
               <div className="reletive z-1">
                 <Image
-                    width={270}
-                    height={371}
+                  width={270}
+                  height={371}
                   src="/talent-about-main.webp"
                   alt=""
                 />

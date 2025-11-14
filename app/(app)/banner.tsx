@@ -5,6 +5,15 @@ import { SearchIcon, StarIcon } from "lucide-react";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
 
+import {
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+
 const business = [
   "b-1.webp",
   "b-2.webp",
@@ -47,7 +56,17 @@ const Banner = () => {
                   className="w-full outline-none bg-white text-black py-[13px] px-4 leading-snug font-normal rounded-md rounded-l-md"
                   placeholder="Type job keyword"
                 />
-
+                <Select>
+                  <SelectTrigger defaultValue={'job'} className="w-full md:w-24 rounded-md md:rounded-none">
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectGroup>
+                      <SelectItem value="job">Job</SelectItem>
+                      <SelectItem value="talent">Talent</SelectItem>
+                    </SelectGroup>
+                  </SelectContent>
+                </Select>
                 <Button
                   size={"icon"}
                   className="md:rounded-l-none w-full md:w-12 h-12"

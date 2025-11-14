@@ -19,7 +19,7 @@ const WhyChooseSection = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3">
-          <div className="pt-0 pl-0 pr-0 md:pr-[30px] pb-[60px] border-none md:border border-t-0 border-l-0 text-center md:text-start">
+          <div className="pt-0 pl-0 pr-0 md:pr-[30px] pb-[60px] border-0 md:border border-t-0 border-l-0 text-center md:text-start">
             <span className="flex justify-center md:justify-start">
               <Image
                 height={45}
@@ -38,7 +38,7 @@ const WhyChooseSection = () => {
               </p>
             </div>
           </div>
-          <div className="pt-0 pl-0 md:pl-[60px] pr-0 md:pr-[30px] pb-[60px] border-none md:border border-t-0 border-l-0 text-center md:text-start">
+          <div className="pt-0 pl-0 md:pl-[60px] pr-0 md:pr-[30px] pb-[60px] border-0 md:border border-t-0 border-l-0 text-center md:text-start">
             <span className="flex justify-center md:justify-start">
               <Image
                 height={45}
@@ -59,7 +59,7 @@ const WhyChooseSection = () => {
               </p>
             </div>
           </div>
-          <div className="pt-0 pl-0 md:pl-[60px] pr-0 md:pr-[30px] pb-[60px] border-none md:border border-t-0 border-l-0 text-center md:text-start">
+          <div className="pt-0 pl-0 md:pl-[60px] pr-0 md:pr-[30px] pb-[60px] border-0 md:border border-t-0 border-l-0 text-center md:text-start">
             <span className="flex justify-center md:justify-start">
               <Image
                 height={45}
@@ -78,7 +78,7 @@ const WhyChooseSection = () => {
               </p>
             </div>
           </div>
-          <div className="pt-0 pl-0 pr-0 md:pr-[30px] pb-[60px] border-none md:border border-t-0 border-l-0 text-center md:text-start">
+          <div className="pb-0 pl-0 pr-0 md:pr-[30px] pt-[60px] border-0 md:border border-t-0 border-l-0 text-center md:text-start">
             <span className="flex justify-center md:justify-start">
               <Image
                 height={45}
@@ -99,7 +99,7 @@ const WhyChooseSection = () => {
               </p>
             </div>
           </div>
-          <div className="pt-0 pl-0 md:pl-[60px] pr-0 md:pr-[30px] pb-[60px] border-none md:border border-t-0 border-l-0 text-center md:text-start">
+          <div className="pb-0 pl-0 md:pl-[60px] pr-0 md:pr-[30px] pt-[60px] border-0 md:border border-t-0 border-l-0 text-center md:text-start">
             <span className="flex justify-center md:justify-start">
               <Image
                 height={45}
@@ -118,7 +118,7 @@ const WhyChooseSection = () => {
               </p>
             </div>
           </div>
-          <div className="pt-0 pl-0 md:pl-[60px] pr-0 md:pr-[30px] pb-[60px] border-none md:border border-t-0 border-l-0 text-center md:text-start">
+          <div className="pb-0 pl-0 md:pl-[60px] pr-0 md:pr-[30px] pt-[60px] border-0 md:border border-t-0 border-l-0 text-center md:text-start">
             <span className="flex justify-center md:justify-start">
               <Image
                 height={45}
