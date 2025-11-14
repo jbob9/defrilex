@@ -1,5 +1,6 @@
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { Check } from "lucide-react";
 import Image from "next/image";
 
 const WorkSection = () => {
@@ -11,30 +12,31 @@ const WorkSection = () => {
             <h5 className="text-white mb-2.5 font-semibold text-xl">
               Access Global Interpretation Talent{" "}
             </h5>
-            <h2
-              className="work-container__title"
-            >
+            <h2 className="text-white text-2xl md:text-[2.8rem] mb-3">
               Your Complete Interpretation{" "}
               <span className="text-highlight">Management</span>{" "}
               <span className="text-highlight">Platform</span>
             </h2>
-            <p className="work-container__desc">
-              {" "}
+            <p className="text-white text-lg">
               The Defrilex Marketplace connects businesses of all sizes with
               certified, professional interpreters from around the world. Get
               on-demand language services with full visibility and
               control—available 24/7 in 200+ languages.{" "}
             </p>
-            <ul className="list">
-              <li className="list-item">
-                {" "}
-                Get on-demand language services with full visibility and
-                control—available 24/7 in 200+ languages.{" "}
+            <ul className="text-white mt-6 mb-7 md:mb-14">
+              <li className="font-medium flex items-center gap-2">
+                <span className="size-5 rounded-full bg-[hsl(226,100%,33%)]">
+                  <Check />
+                </span>
+                <span>
+                  Get on-demand language services with full visibility and
+                  control—available 24/7 in 200+ languages.
+                </span>
               </li>
             </ul>
             <a
               href="https://rh.defrilex.com/freelance-jobs"
-              className={cn(buttonVariants(), 'h-12 rounded-sm')}
+              className={cn(buttonVariants(), "h-12 rounded-sm")}
             >
               Find Your Work
             </a>
