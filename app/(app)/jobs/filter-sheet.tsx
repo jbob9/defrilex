@@ -18,7 +18,7 @@ const FilterSheet = () => {
           <MenuIcon />
         </Button>
       </SheetTrigger>
-      <SheetContent side="left">
+      <SheetContent side="left" className="overflow-y-scroll">
         <SheetHeader className="hidden">
           <SheetTitle>Filter Section</SheetTitle>
           <SheetDescription>Filter Section</SheetDescription>

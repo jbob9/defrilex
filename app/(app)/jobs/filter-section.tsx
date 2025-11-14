@@ -1,6 +1,6 @@
 const FilterSection = () => {
   return (
-    <div className="rounded-lg w-[320px] bg-white p-5">
+    <div className="rounded-lg w-full md:w-[320px] bg-white p-5">
       <div>
         <div className="mb-5 pb-4 border-b">
           <div className="mt-[30px] p-0 border-0 bg-transparent text-[#212529]">
