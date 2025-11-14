@@ -90,7 +90,7 @@ const SupportSection = () => {
                 alt=""
               />
             </div>
-            <div className="absolute top-0 bottom-0 right-0 -z-1 max-w-[320px] md:max-w-[45%] support-wrapper__thumb">
+            <div className="absolute top-0 bottom-0 right-0 -z-1 max-w-[320px] md:max-w-[45%] hidden md:block support-wrapper__thumb">
               <Image
                 width={234}
                 height={229}

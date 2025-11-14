@@ -136,7 +136,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="col-span-full md:col-span-7 order-first md:order-last">
-                <div className="rounded-lg p-7 bg-white">
+                <div className="rounded-lg p-3 md:p-7 bg-white">
                   <h4 className="mb-4 text-center text-3xl">
                     Let`s Talk with US
                   </h4>
