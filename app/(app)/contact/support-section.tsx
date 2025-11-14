@@ -5,7 +5,7 @@ const SupportSection = () => {
   return (
     <div className="my-20 md:my-32">
       <div className="container mx-auto px-3">
-        <div className="flex flex-col md:flex-row items-center relative gap-0 md:gap-20">
+        <div className="flex flex-col md:flex-row items-center relative gap-6 md:gap-20">
           <div className="w-full md:w-1/2">
             <h6 className="mb-4 font-semibold text-lg leading-tight text-[hsl(0,0%,13%)]">
               Trusted by 100,000+ Business
