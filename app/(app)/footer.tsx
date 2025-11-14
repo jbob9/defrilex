@@ -27,7 +27,7 @@ const Footer = () => {
                 Create Interpreter Account{" "}
               </Link>
             </div>
-            <div className="broder-none md:border-l pl-4">
+            <div className="broder-none md:border-l pl-0 md:pl-4">
               <h4 className="text-white mb-2.5 text-2xl md:text-3xl">
                 I need interpreters for my{" "}
                 <span className="text-highlight">project</span>

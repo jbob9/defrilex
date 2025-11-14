@@ -376,31 +376,21 @@ label.required:after {
   }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 675px) {
   .support-wrapper__right {
     border-radius: 12px;
     margin-top: 0px;
   }
 }
-@media screen and (max-width: 767px) {
-  .support-wrapper__right {
-    margin-top: 60px;
-  }
-}
-@media screen and (max-width: 991px) {
-  .support-wrapper__right {
-    margin-top: 90px;
-  }
-}
+
 @media screen and (max-width: 1199px) {
   .support-wrapper__right {
     width: 100%;
-    margin-top: 140px;
   }
 }
 
 .support-wrapper__right::before {
-  @apply hidden md:block;
+  @apply hidden lg:block;
   position: absolute;
   content: "";
   top: -105px;
@@ -443,7 +433,6 @@ label.required:after {
   height: 100%;
   width: 71%;
   mask-image: url("/talent-shape-1.webp");
-  -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   background-color: hsl(226 100% 33%);
 }
@@ -459,4 +448,17 @@ label.required:after {
     mask-image: url('/talent-shape-2.webp');
     mask-repeat: no-repeat;
     background-color: hsl(226 100% calc(33% - 33% * 0.5));
+}
+
+.work-container__thumb::before {
+    position: absolute;
+    content: "";
+    top: 55%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 520px;
+    height: 520px;
+    border-radius: 50%;
+    background-color: hsl(226 100% 33%);
+    z-index: -1;
 }

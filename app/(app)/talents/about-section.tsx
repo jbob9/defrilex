@@ -91,7 +91,7 @@ const AboutSection = () => {
             </div>
           </div>
           <div className="col-span-full md:col-span-7 hidden md:block">
-            <div className="text-center relative my-8">
+            <div className="flex items-center justify-center relative my-8">
               <div className="absolute top-0 right-0">
                 <Image
                   width={155}

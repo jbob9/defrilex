@@ -33,7 +33,7 @@ const HowWorkSection = () => {
               <span className="size-20 flex justify-center items-center rounded-full mx-auto my-0 bg-[hsl(226,100%,33%)]/10 text-[hsl(226,100%,33%)] group-hover:bg-[hsl(hsl(226,100%,33%))] group-hover:text-white">
                 <HandCoinsIcon className="size-6"/>
               </span>
-              <div className="text-center mb-6">
+              <div className="text-center mb-6 mt-5">
                 <h5 className="font-semibold text-xl">
                   {" "}
                   Global Pricing Flexibility{" "}
@@ -50,7 +50,7 @@ const HowWorkSection = () => {
               <span className="size-20 flex justify-center items-center rounded-full mx-auto my-0 bg-[hsl(226,100%,33%)]/10 text-[hsl(226,100%,33%)] group-hover:bg-[hsl(hsl(226,100%,33%))] group-hover:text-white">
                 <ChevronsUpIcon className="size-6"/>
               </span>
-              <div className="text-center mb-6">
+              <div className="text-center mb-6 mt-5">
                 <h5 className="font-semibold text-xl"> Rapid Deployment </h5>
                 <p className="text-[hsl(0,0%,46%) font-normal text-base m-0">
                   {" "}
@@ -64,7 +64,7 @@ const HowWorkSection = () => {
               <span className="size-20 flex justify-center items-center rounded-full mx-auto my-0 bg-[hsl(226,100%,33%)]/10 text-[hsl(226,100%,33%)] group-hover:bg-[hsl(hsl(226,100%,33%))] group-hover:text-white">
                 <FolderClockIcon className="size-6 " />
               </span>
-              <div className="text-center mb-6">
+              <div className="text-center mb-6 mt-5">
                 <h5 className="font-semibold text-xl"> 24/7 Availability </h5>
                 <p className="text-[hsl(0,0%,46%) font-normal text-base m-0">
                   {" "}
@@ -79,7 +79,7 @@ const HowWorkSection = () => {
               <span className="size-20 flex justify-center items-center rounded-full mx-auto my-0 bg-[hsl(226,100%,33%)]/10 text-[hsl(226,100%,33%)] group-hover:bg-[hsl(hsl(226,100%,33%))] group-hover:text-white">
                 <ListChecks className="size-6"/>
               </span>
-              <div className="text-center mb-6">
+              <div className="text-center mb-6 mt-5">
                 <h5 className="font-semibold text-xl">
                   {" "}
                   Complete Transparency{" "}
@@ -97,7 +97,7 @@ const HowWorkSection = () => {
               <span className="size-20 flex justify-center items-center rounded-full mx-auto my-0 bg-[hsl(226,100%,33%)]/10 text-[hsl(226,100%,33%)] group-hover:bg-[hsl(hsl(226,100%,33%))] group-hover:text-white">
                 <Languages className="size-6"/>{" "}
               </span>
-              <div className="text-center mb-6">
+              <div className="text-center mb-6 mt-5">
                 <h5 className="font-semibold text-xl">
                   {" "}
                   Any Language, Any Location{" "}
@@ -114,7 +114,7 @@ const HowWorkSection = () => {
               <span className="size-20 flex justify-center items-center rounded-full mx-auto my-0 bg-[hsl(226,100%,33%)]/10 text-[hsl(226,100%,33%)] group-hover:bg-[hsl(hsl(226,100%,33%))] group-hover:text-white">
                 <CalendarDays className="size-6"/>
               </span>
-              <div className="text-center mb-6">
+              <div className="text-center mb-6 mt-5">
                 <h5 className="font-semibold text-xl">
                   {" "}
                   Flexible Engagements{" "}

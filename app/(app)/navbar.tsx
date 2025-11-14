@@ -58,32 +58,30 @@ const Navbar = () => {
                   className="relative cursor-pointer font-semibold text-base text-[hsl(226,100%,33%)] hover:text-primary"
                   href="/"
                 >
-                  Home{" "}
+                  Home
                 </Link>
               </li>
 
               <li className="relative w-full md:w-auto border-b pb-2 md:pb-0 md:border-b-0 ">
                 <Link
-                  className="relative cursor-pointer font-semibold text-base py-5"
+                  className="relative cursor-pointer font-semibold text-base text-black py-5"
                   href="/jobs"
                 >
-                  {" "}
-                  Find Jobs{" "}
+                  Find Jobs
                 </Link>
               </li>
               <li className="relative w-full md:w-auto border-b  pb-2 md:pb-0 md:border-b-0">
                 <Link
-                  className="relative cursor-pointer font-semibold text-base"
+                  className="relative cursor-pointer font-semibold text-base text-black"
                   href="/talents"
                 >
-                  {" "}
-                  Find Talents{" "}
+                  Find Talents
                 </Link>
               </li>
 
               <li className="relative w-full md:w-auto border-b  pb-2 md:pb-0 md:border-b-0">
                 <Link
-                  className="relative cursor-pointer font-semibold text-base"
+                  className="relative cursor-pointer font-semibold text-base text-black"
                   href="/blogs"
                 >
                   Blogs{" "}
@@ -91,7 +89,7 @@ const Navbar = () => {
               </li>
               <li className="relative w-full md:w-auto border-b  pb-2 md:pb-0 md:border-b-0">
                 <Link
-                  className="relative cursor-pointer font-semibold text-base"
+                  className="relative cursor-pointer font-semibold text-base text-black"
                   href="/contact"
                 >
                   Contact{" "}

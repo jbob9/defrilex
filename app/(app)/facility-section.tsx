@@ -8,7 +8,7 @@ const FacilitySection = () => {
         <div className="flex justify-center">
           <div className="col-lg-10">
             <div className="text-center mb-14">
-              <h2 className="text-[hsl(0,0%,13%)] font-semibold mb-3.5 text-[2.8rem]">
+              <h2 className="text-[hsl(0,0%,13%)] font-semibold mb-3.5 text-2xl md:text-[2.8rem]">
                 The <span className="text-highlight">Smarter</span> Way to
                 Source Interpretation Services
               </h2>

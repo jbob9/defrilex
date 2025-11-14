@@ -5,7 +5,7 @@ const SupportSection = () => {
   return (
     <div className="my-20 md:my-32">
       <div className="container mx-auto px-3">
-        <div className="flex flex-col md:flex-row items-center relative gap-10 md:gap-20">
+        <div className="flex flex-col md:flex-row items-center relative gap-0 md:gap-20">
           <div className="w-full md:w-1/2">
             <h6 className="mb-4 font-semibold text-lg leading-tight text-[hsl(0,0%,13%)]">
               Trusted by 100,000+ Business
@@ -81,7 +81,8 @@ const SupportSection = () => {
                 Email: support@defrilex.com
               </p>
             </div>
-            <div className="absolute top-0 bottom-0 -z-1 support-wrapper__thumb">
+            <div className="absolute top-0 bottom-0 -z-1 hidden md:block
+            ">
               <Image
                 width={520}
                 height={300}
@@ -89,11 +90,11 @@ const SupportSection = () => {
                 alt=""
               />
             </div>
-            <div className="absolute top-0 bottom-0 -z-1 max-w-[320px] md:max-w-[45%] hidden md:block">
+            <div className="absolute top-0 bottom-0 right-0 -z-1 max-w-[320px] md:max-w-[45%] support-wrapper__thumb">
               <Image
                 width={234}
                 height={229}
-                src="/support-thumb.webp"
+                src="/support-thump.webp"
                 alt=""
               />
             </div>

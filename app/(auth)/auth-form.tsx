@@ -127,16 +127,17 @@ export function AuthForm({
             <div className="py-2">
               <div className="flex items-center gap-2">
                 <Checkbox id="consent" />
-                <Label htmlFor="consent">
+                <Label
+                  htmlFor="consent"
+                  className="whitespace-nowrap flex-wrap"
+                >
                   I agree with{" "}
                   <span className="text-[hsl(226,100%,33%)]">
                     Privacy Policy
-                  </span>{" "}
-                  ,{" "}
+                  </span>,
                   <span className="text-[hsl(226,100%,33%)]">
                     Terms of Service
-                  </span>{" "}
-                  , <span className="text-[hsl(226,100%,33%)]">Bid Policy</span>{" "}
+                  </span>,<span className="text-[hsl(226,100%,33%)]">Bid Policy</span>
                 </Label>
               </div>
             </div>
@@ -161,7 +162,10 @@ export function AuthForm({
               ) : (
                 <>
                   Already have an account?
-                  <Link href="/login" className="underline underline-offset-4 text-[hsl(226,100%,33%)]">
+                  <Link
+                    href="/login"
+                    className="underline underline-offset-4 text-[hsl(226,100%,33%)]"
+                  >
                     Login Now
                   </Link>
                 </>
