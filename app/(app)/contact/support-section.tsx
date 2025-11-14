@@ -5,7 +5,7 @@ const SupportSection = () => {
   return (
     <div className="my-20 md:my-32">
       <div className="container mx-auto px-3">
-        <div className="flex flex-col md:flex-row items-center relative gap-20">
+        <div className="flex flex-col md:flex-row items-center relative gap-10 md:gap-20">
           <div className="w-full md:w-1/2">
             <h6 className="mb-4 font-semibold text-lg leading-tight text-[hsl(0,0%,13%)]">
               Trusted by 100,000+ Business
@@ -86,7 +86,6 @@ const SupportSection = () => {
                 width={520}
                 height={300}
                 src="/support-shape.webp"
-                className="h-auto max-w-full"
                 alt=""
               />
             </div>
@@ -95,7 +94,6 @@ const SupportSection = () => {
                 width={234}
                 height={229}
                 src="/support-thumb.webp"
-                className="h-auto max-w-full"
                 alt=""
               />
             </div>

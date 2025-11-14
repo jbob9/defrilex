@@ -1,6 +1,22 @@
+"use client"
+
 import { Button } from "@/components/ui/button";
 import { SearchIcon, StarIcon } from "lucide-react";
 import Image from "next/image";
+import Marquee from "react-fast-marquee";
+
+const business = [
+  "b-1.webp",
+  "b-2.webp",
+  "b-3.webp",
+  "b-4.webp",
+  "b-5.webp",
+  "b-6.webp",
+  "b-7.webp",
+  "b-8.webp",
+  "b-9.webp",
+  "b-10.webp",
+];
 
 const Banner = () => {
   return (
@@ -43,6 +59,20 @@ const Banner = () => {
             </form>
 
             {/* Buyer wraper */}
+            <div className="max-w-[550px] mt-8">
+              <span className="font-semibold mb-4 text-white text-lg">
+                Trusted by 1000+ Business
+              </span>
+              <div>
+                <Marquee>
+                  {business.map((b) => (
+                    <div className="w-40">
+                      <Image src={b} width={142} height={49} alt="" />
+                    </div>
+                  ))}
+                </Marquee>
+              </div>
+            </div>
           </div>
           <div className="hidden lg:block">
             <div className="relative z-1">

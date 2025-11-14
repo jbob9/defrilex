@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
 import {
   Field,
   FieldDescription,
@@ -7,8 +8,10 @@ import {
   FieldSeparator,
 } from "@/components/ui/field";
 import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 import { cn } from "@/lib/utils";
 import { LinkedinIcon } from "lucide-react";
+import Link from "next/link";
 
 export function AuthForm({
   className,
@@ -23,7 +26,9 @@ export function AuthForm({
         <p className="text-muted-foreground text-sm text-balance">
           {action === "login" ? "Welcome back" : "Welcome to Defrilex"}
         </p>
-        <h1 className="text-2xl font-bold capitalize text-black">{action} account</h1>
+        <h1 className="text-2xl font-bold capitalize text-black">
+          {action} account
+        </h1>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
         <Button variant="outline" type="button">
@@ -58,10 +63,22 @@ export function AuthForm({
           Linkedin
         </Button>
       </div>
-      
+
       <FieldSeparator>Or continue with</FieldSeparator>
       <form className={cn("flex flex-col gap-6", className)} {...props}>
         <FieldGroup>
+          {action === "register" ? (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              <Field>
+                <FieldLabel htmlFor="firstname">Firstname</FieldLabel>
+                <Input id="firstname" type="text" required />
+              </Field>
+              <Field>
+                <FieldLabel htmlFor="lastname">Lastname</FieldLabel>
+                <Input id="lastname" type="text" required />
+              </Field>
+            </div>
+          ) : null}
           <Field>
             <FieldLabel htmlFor="email">Email</FieldLabel>
             <Input
@@ -71,27 +88,84 @@ export function AuthForm({
               required
             />
           </Field>
-          <Field>
-            <div className="flex items-center">
-              <FieldLabel htmlFor="password">Password</FieldLabel>
+          <div
+            className={cn("grid grid-cols-1", {
+              "md:grid-cols-2 gap-3": action === "register",
+            })}
+          >
+            <Field>
+              <div className="flex items-center">
+                <FieldLabel htmlFor="password">Password</FieldLabel>
+              </div>
+              <Input id="password" type="password" required />
+            </Field>
+            {action === "register" ? (
+              <Field>
+                <div className="flex items-center">
+                  <FieldLabel htmlFor="confirm_password">
+                    Confirm Password
+                  </FieldLabel>
+                </div>
+                <Input id="confirm_password" type="password" required />
+              </Field>
+            ) : null}
+          </div>
+          {action === "login" ? (
+            <div className="flex items-center justify-between py-2">
+              <div>
+                <Checkbox id="remember-me" />
+                <Label htmlFor="remember-me">Remenber me</Label>
+              </div>
               <a
                 href="#"
-                className="ml-auto text-sm underline-offset-4 hover:underline"
+                className="ml-auto text-sm underline-offset-4 hover:underline text-[hsl(226,100%,33%)]"
               >
-                Forgot your password?
+                Forgot password?
               </a>
             </div>
-            <Input id="password" type="password" required />
-          </Field>
+          ) : (
+            <div className="py-2">
+              <div>
+                <Checkbox id="consent" />
+                <Label htmlFor="consent">
+                  I agree with{" "}
+                  <span className="text-[hsl(226,100%,33%)]">
+                    Privacy Policy
+                  </span>{" "}
+                  ,{" "}
+                  <span className="text-[hsl(226,100%,33%)]">
+                    Terms of Service
+                  </span>{" "}
+                  , <span className="text-[hsl(226,100%,33%)]">Bid Policy</span>{" "}
+                </Label>
+              </div>
+            </div>
+          )}
           <Field>
-            <Button type="submit">Login</Button>
+            <Button type="submit">
+              {action === "login" ? "Login Account" : "Register Account"}
+            </Button>
           </Field>
           <Field>
             <FieldDescription className="text-center">
-              Don&apos;t have an account?{" "}
-              <a href="#" className="underline underline-offset-4">
-                Sign up
-              </a>
+              {action === "login" ? (
+                <>
+                  Don&apos;t have an account?{" "}
+                  <Link
+                    href="/register"
+                    className="underline underline-offset-4"
+                  >
+                    Sign up
+                  </Link>
+                </>
+              ) : (
+                <>
+                  Already have an account?
+                  <Link href="/login" className="underline underline-offset-4">
+                    Login Now
+                  </Link>
+                </>
+              )}
             </FieldDescription>
           </Field>
         </FieldGroup>

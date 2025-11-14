@@ -400,6 +400,7 @@ label.required:after {
 }
 
 .support-wrapper__right::before {
+  @apply hidden md:block;
   position: absolute;
   content: "";
   top: -105px;
