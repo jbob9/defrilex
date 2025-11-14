@@ -22,7 +22,7 @@ const Contact = () => {
         ]}
       />
       <div className="py-20 md:py-28">
-        <div className="md:container mx-4 md:mx-auto max-w-6xl">
+        <div className="mx-4 md:mx-auto max-w-6xl">
           <div className="grid grid-cols-1 md:grid-cols-11 justify-between items-center flex-wrap-reverse gap-6">
             <div className="col-span-full md:col-span-4 order-last md:order-first">
               <div className="relative pt-16 md:pt-[100px] px-[30px] pb-[50px] md:py-[55px] md:px-[30px] contact-item-wrapper max-w-full md:max-w-[316px] bg-white md:bg-transparent rounded-xl md:rounded-none">

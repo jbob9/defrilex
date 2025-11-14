@@ -82,20 +82,20 @@ const Navbar = () => {
               </li>
 
               <li className="relative w-full md:w-auto border-b  pb-2 md:pb-0 md:border-b-0">
-                <a
+                <Link
                   className="relative cursor-pointer font-semibold text-base"
                   href="/blogs"
                 >
                   Blogs{" "}
-                </a>
+                </Link>
               </li>
               <li className="relative w-full md:w-auto border-b  pb-2 md:pb-0 md:border-b-0">
-                <a
+                <Link
                   className="relative cursor-pointer font-semibold text-base"
                   href="/contact"
                 >
                   Contact{" "}
-                </a>
+                </Link>
               </li>
               <li className="flex justify-between w-full md:hidden relative pr-0">
                 <div className="w-full">

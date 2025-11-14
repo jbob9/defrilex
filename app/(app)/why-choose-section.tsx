@@ -29,7 +29,7 @@ const WhyChooseSection = () => {
                 alt=""
               />
             </span>
-            <div>
+            <div className="mb-6">
               <h5 className="font-semibold mb-6 mt-5 text-xl text-black">
                 150,000+ Active Interpreters{" "}
               </h5>
@@ -48,9 +48,8 @@ const WhyChooseSection = () => {
                 alt=""
               />
             </span>
-            <div>
+            <div className="mb-6">
               <h5 className="font-semibold mb-6 mt-5 text-xl text-black">
-                {" "}
                 No upfront costs{" "}
               </h5>
               <p className="font-normal text-[hsl(0,0%,46%)]">
@@ -70,9 +69,8 @@ const WhyChooseSection = () => {
                 alt=""
               />
             </span>
-            <div>
+            <div className="mb-6">
               <h5 className="font-semibold mb-6 mt-5 text-xl text-black">
-                {" "}
                 Ready-Now Workforce{" "}
               </h5>
               <p className="font-normal text-[hsl(0,0%,46%)]">
@@ -90,7 +88,7 @@ const WhyChooseSection = () => {
                 alt=""
               />
             </span>
-            <div>
+            <div className="mb-6">
               <h5 className="font-semibold mb-6 mt-5 text-xl text-black">
                 {" "}
                 Proven at Scale{" "}
@@ -111,9 +109,8 @@ const WhyChooseSection = () => {
                 alt=""
               />
             </span>
-            <div>
+            <div className="mb-6">
               <h5 className="font-semibold mb-6 mt-5 text-xl text-black">
-                {" "}
                 Instant Matching Technology{" "}
               </h5>
               <p className="font-normal text-[hsl(0,0%,46%)]">
