@@ -2,6 +2,7 @@ import CustomBreadcrumb from "@/components/custom-breadcrumb";
 import { SearchIcon } from "lucide-react";
 import Image from "next/image";
 import FilterSection from "./filter-section";
+import FilterSheet from "./filter-sheet";
 
 const Jobs = () => {
   return (
@@ -14,9 +15,14 @@ const Jobs = () => {
         ]}
       />
       <div className="mb-20 md:mb-32 mt-7 md:mt-14">
-        <div className="mx-4 md:mx-20 px-3">
+        <div className="mx-4 md:mx-20">
+          <div className="flex md:hidden items-center">
+            <FilterSheet />
+          </div>
           <div className="flex gap-5 items-start">
-            <FilterSection />
+            <div className="hidden md:block">
+              <FilterSection />
+            </div>
             <div className="w-full md:w-[calc(100%-320px)]">
               <div className="block md:hidden">
                 <span className="job-category-body__bar-icon">
