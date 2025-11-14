@@ -29,7 +29,7 @@ const business = [
 
 const Banner = () => {
   return (
-    <section className="relative z-1 pt-[120px] pb-[100px] px-0 overflow-hidden bg-[hsl(226,100%,calc(33%-33%*0.5))]">
+    <section className="relative z-1 pt-20 md:pt-[120px] pb-[100px] px-0 overflow-hidden bg-[hsl(226,100%,calc(33%-33%*0.5))]">
       <div className="absolute bottom-0 right-0 -z-1">
         <Image
           src="/banner-shape.webp"
