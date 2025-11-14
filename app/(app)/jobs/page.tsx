@@ -16,7 +16,7 @@ const Jobs = () => {
       />
       <div className="mb-20 md:mb-32 mt-7 md:mt-14">
         <div className="mx-4 md:mx-20">
-          <div className="flex md:hidden items-center">
+          <div className="block md:hidden mb-4">
             <FilterSheet />
           </div>
           <div className="flex gap-5 items-start">
