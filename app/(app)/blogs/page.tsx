@@ -45,7 +45,7 @@ const Blogs = () => {
         ]}
       />
 
-      <div className="container mx-auto py-20 md:py-28">
+      <div className="mx-4 py-20 md:py-28">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-16">
           {blogs.map((blog, i) => (
             <BlogCard
