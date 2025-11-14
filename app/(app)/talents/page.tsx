@@ -1,4 +1,6 @@
 import CustomBreadcrumb from "@/components/custom-breadcrumb";
+import AboutSection from "./about-section";
+import Testimonials from "./testimonials";
 
 const Talents = () => {
   return (
@@ -11,7 +13,12 @@ const Talents = () => {
         ]}
       />
 
-      <div className="contianer mx-auto py-20"></div>
+      <div className="mx-4 md:mx-auto max-w-6xl">
+        <div className="py-20 md:py-28">
+          <AboutSection />
+          <Testimonials />
+        </div>
+      </div>
     </div>
   );
 };

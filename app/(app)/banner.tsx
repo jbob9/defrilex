@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { Button } from "@/components/ui/button";
 import { SearchIcon, StarIcon } from "lucide-react";
@@ -44,13 +44,13 @@ const Banner = () => {
                 <input
                   type="search"
                   name="search"
-                  className="w-full outline-none bg-white text-black py-[13px] px-4 leading-snug font-normal"
+                  className="w-full outline-none bg-white text-black py-[13px] px-4 leading-snug font-normal rounded-md rounded-l-md"
                   placeholder="Type job keyword"
                 />
 
                 <Button
                   size={"icon"}
-                  className="md:rounded-l-none w-full md:size-12"
+                  className="md:rounded-l-none w-full md:w-12 h-12"
                 >
                   <SearchIcon className="hidden md:block" />
                   <small className="block md:hidden">Search</small>
@@ -63,7 +63,7 @@ const Banner = () => {
               <span className="font-semibold mb-4 text-white text-lg">
                 Trusted by 1000+ Business
               </span>
-              <div>
+              <div className="mt-2.5">
                 <Marquee>
                   {business.map((b) => (
                     <div className="w-40">

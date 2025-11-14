@@ -111,8 +111,8 @@ export function AuthForm({
             ) : null}
           </div>
           {action === "login" ? (
-            <div className="flex items-center justify-between py-2">
-              <div>
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
                 <Checkbox id="remember-me" />
                 <Label htmlFor="remember-me">Remenber me</Label>
               </div>
@@ -125,7 +125,7 @@ export function AuthForm({
             </div>
           ) : (
             <div className="py-2">
-              <div>
+              <div className="flex items-center gap-2">
                 <Checkbox id="consent" />
                 <Label htmlFor="consent">
                   I agree with{" "}
@@ -161,7 +161,7 @@ export function AuthForm({
               ) : (
                 <>
                   Already have an account?
-                  <Link href="/login" className="underline underline-offset-4">
+                  <Link href="/login" className="underline underline-offset-4 text-[hsl(226,100%,33%)]">
                     Login Now
                   </Link>
                 </>
