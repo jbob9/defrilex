@@ -57,6 +57,11 @@ const Navbar = () => {
                 <Link
                   className="relative cursor-pointer font-semibold text-base text-[hsl(226,100%,33%)] hover:text-primary"
                   href="/"
+                  onClick={(e) => {
+                    if (isOpen) {
+                      handleClick();
+                    }
+                  }}
                 >
                   Home
                 </Link>
@@ -66,6 +71,11 @@ const Navbar = () => {
                 <Link
                   className="relative cursor-pointer font-semibold text-base text-black py-5"
                   href="/jobs"
+                  onClick={(e) => {
+                    if (isOpen) {
+                      handleClick();
+                    }
+                  }}
                 >
                   Find Jobs
                 </Link>
@@ -74,6 +84,11 @@ const Navbar = () => {
                 <Link
                   className="relative cursor-pointer font-semibold text-base text-black"
                   href="/talents"
+                  onClick={(e) => {
+                    if (isOpen) {
+                      handleClick();
+                    }
+                  }}
                 >
                   Find Talents
                 </Link>
@@ -83,6 +98,11 @@ const Navbar = () => {
                 <Link
                   className="relative cursor-pointer font-semibold text-base text-black"
                   href="/blogs"
+                  onClick={(e) => {
+                    if (isOpen) {
+                      handleClick();
+                    }
+                  }}
                 >
                   Blogs{" "}
                 </Link>
@@ -91,6 +111,11 @@ const Navbar = () => {
                 <Link
                   className="relative cursor-pointer font-semibold text-base text-black"
                   href="/contact"
+                  onClick={(e) => {
+                    if (isOpen) {
+                      handleClick();
+                    }
+                  }}
                 >
                   Contact{" "}
                 </Link>
@@ -102,12 +127,22 @@ const Navbar = () => {
                       <Link
                         href="/login"
                         className="font-semibold text-black dark:text-white"
+                        onClick={(e) => {
+                          if (isOpen) {
+                            handleClick();
+                          }
+                        }}
                       >
                         Login{" "}
                       </Link>
                       <Link
                         href="/register"
                         className="font-semibold text-black dark:text-white"
+                        onClick={(e) => {
+                          if (isOpen) {
+                            handleClick();
+                          }
+                        }}
                       >
                         Register{" "}
                       </Link>

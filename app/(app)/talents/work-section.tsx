@@ -17,7 +17,7 @@ const WorkSection = () => {
               <span className="text-highlight">Management</span>{" "}
               <span className="text-highlight">Platform</span>
             </h2>
-            <p className="text-white text-lg">
+            <p className="text-white text-sm md:text-lg">
               The Defrilex Marketplace connects businesses of all sizes with
               certified, professional interpreters from around the world. Get
               on-demand language services with full visibility and
@@ -25,8 +25,8 @@ const WorkSection = () => {
             </p>
             <ul className="text-white mt-6 mb-7 md:mb-14">
               <li className="font-medium flex items-center gap-2">
-                <span className="size-5 rounded-full bg-[hsl(226,100%,33%)]">
-                  <Check />
+                <span className="p-1 rounded-full bg-[hsl(226,100%,33%)]">
+                  <Check className="size-4" />
                 </span>
                 <span>
                   Get on-demand language services with full visibility and
