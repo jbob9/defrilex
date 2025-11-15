@@ -158,14 +158,9 @@
 }
 
 .text-highlight {
-  background-image: "";
-  background-position-x: "";
-  background-position-y: "";
-  background-size: "";
-  background-repeat: "";
-  background-attachment: "";
-  background-origin: "";
-  background-color: "";
+  background: linear-gradient(hsl(0 0% 100%), hsl(226 100% 33%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   background-clip: text;
   color: hsl(226 100% 33%);
 }
@@ -438,27 +433,27 @@ label.required:after {
 }
 
 .shape-two {
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -2;
-    height: 100%;
-    width: 76%;
-    mask-image: url('/talent-shape-2.webp');
-    mask-repeat: no-repeat;
-    background-color: hsl(226 100% calc(33% - 33% * 0.5));
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -2;
+  height: 100%;
+  width: 76%;
+  mask-image: url("/talent-shape-2.webp");
+  mask-repeat: no-repeat;
+  background-color: hsl(226 100% calc(33% - 33% * 0.5));
 }
 
 .work-container__thumb::before {
-    position: absolute;
-    content: "";
-    top: 55%;
-    transform: translateY(-50%);
-    left: 0;
-    width: 520px;
-    height: 520px;
-    border-radius: 50%;
-    background-color: hsl(226 100% 33%);
-    z-index: -1;
+  position: absolute;
+  content: "";
+  top: 55%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 520px;
+  height: 520px;
+  border-radius: 50%;
+  background-color: hsl(226 100% 33%);
+  z-index: -1;
 }
